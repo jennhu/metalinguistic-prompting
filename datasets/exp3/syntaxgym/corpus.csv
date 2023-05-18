@@ -1,0 +1,346 @@
+good_sentence,bad_sentence,suite,good_cond,bad_cond,syntaxgym_id,item_id
+The window that the boy wiped shattered.,The window that the boy shattered wiped.,center_embed,plaus,implaus,27,1
+The bones that the doctor examined broke.,The bones that the doctor broke examined.,center_embed,plaus,implaus,14,2
+The shirt that the man bought ripped.,The shirt that the man ripped bought.,center_embed,plaus,implaus,11,3
+The bomb that the terrorist built exploded.,The bomb that the terrorist exploded built.,center_embed,plaus,implaus,22,4
+The painting that the artist painted deteriorated.,The painting that the artist deteriorated painted.,center_embed,plaus,implaus,1,5
+The ship that the workers built sank.,The ship that the workers sank built.,center_embed,plaus,implaus,16,6
+The computer that the secretary bought crashed.,The computer that the secretary crashed bought.,center_embed,plaus,implaus,8,7
+The storm that the captain feared subsided.,The storm that the captain subsided feared.,center_embed,plaus,implaus,2,8
+The horse that the boy rode bucked.,The horse that the boy bucked rode.,center_embed,plaus,implaus,17,9
+The soldier that the bullet wounded died.,The soldier that the bullet died wounded.,center_embed,plaus,implaus,5,10
+The baby that the woman held yelled.,The baby that the woman yelled held.,center_embed,plaus,implaus,4,11
+The yacht that the millionaires bought sank.,The yacht that the millionaires sank bought.,center_embed,plaus,implaus,10,12
+The tree that the old man cut fell.,The tree that the old man fell cut.,center_embed,plaus,implaus,19,13
+The toilet that the worker fixed clogged.,The toilet that the worker clogged fixed.,center_embed,plaus,implaus,26,14
+The child that the shadow frightened yelled.,The child that the shadow yelled frightened.,center_embed,plaus,implaus,28,15
+The window that the boy in the blue shirt wiped shattered.,The window that the boy in the blue shirt shattered wiped.,center_embed_mod,plaus,implaus,27,16
+The bones that the doctor in the white jacket examined broke.,The bones that the doctor in the white jacket broke examined.,center_embed_mod,plaus,implaus,14,17
+The shirt that the man who lives down the block bought ripped.,The shirt that the man who lives down the block ripped bought.,center_embed_mod,plaus,implaus,11,18
+The bomb that the terrorist from the foreign country built exploded.,The bomb that the terrorist from the foreign country exploded built.,center_embed_mod,plaus,implaus,22,19
+The painting that the artist who lived long ago painted deteriorated.,The painting that the artist who lived long ago deteriorated painted.,center_embed_mod,plaus,implaus,1,20
+The ship that the workers in the blue uniforms built sank.,The ship that the workers in the blue uniforms sank built.,center_embed_mod,plaus,implaus,16,21
+The computer that the secretary with the blue dress bought crashed.,The computer that the secretary with the blue dress crashed bought.,center_embed_mod,plaus,implaus,8,22
+The storm that the captain with the black hair feared subsided.,The storm that the captain with the black hair subsided feared.,center_embed_mod,plaus,implaus,2,23
+The horse that the boy from the local town rode bucked.,The horse that the boy from the local town bucked rode.,center_embed_mod,plaus,implaus,17,24
+The soldier that the bullet with the exploding tip wounded died.,The soldier that the bullet with the exploding tip died wounded.,center_embed_mod,plaus,implaus,5,25
+The baby that the woman waiting in the street held yelled.,The baby that the woman waiting in the street yelled held.,center_embed_mod,plaus,implaus,4,26
+The yacht that the millionaires who everyone dislikes bought sank.,The yacht that the millionaires who everyone dislikes sank bought.,center_embed_mod,plaus,implaus,10,27
+The tree that the old man from the small town cut fell.,The tree that the old man from the small town fell cut.,center_embed_mod,plaus,implaus,19,28
+The toilet that the worker who we all respect fixed clogged.,The toilet that the worker who we all respect clogged fixed.,center_embed_mod,plaus,implaus,26,29
+The child that the shadow in the corner of the room frightened yelled.,The child that the shadow in the corner of the room yelled frightened.,center_embed_mod,plaus,implaus,28,30
+What she wrote was the contract.,What she did was the contract.,cleft,np_match,np_mismatch,26,31
+What the worker did was lock the door.,What the worker installed was lock the door.,cleft,vp_match,vp_mismatch,20,32
+What the workers did was pave the sidewalk.,What the workers walked down was pave the sidewalk.,cleft,vp_match,vp_mismatch,10,33
+What the people collected was the trash.,What the people did was the trash.,cleft,np_match,np_mismatch,30,34
+What the army did was invade the country.,What the army loved was invade the country.,cleft,vp_match,vp_mismatch,17,35
+Who he did was hug his friend.,Who he called was hug his friend.,cleft,vp_match,vp_mismatch,33,36
+What the worker installed was the door.,What the worker did was the door.,cleft,np_match,np_mismatch,20,37
+What the people did was remove the trash.,What the people collected was remove the trash.,cleft,vp_match,vp_mismatch,30,38
+What the old man cooked was the chicken.,What the old man did was the chicken.,cleft,np_match,np_mismatch,9,39
+What he created was a painting.,What he did was a painting.,cleft,np_match,np_mismatch,37,40
+Who the police caught was the suspect.,Who the police did was the suspect.,cleft,np_match,np_mismatch,29,41
+What the woman did was mail the letter.,What the woman wrote was mail the letter.,cleft,vp_match,vp_mismatch,38,42
+What they did was transport the drugs.,What they bought was transport the drugs.,cleft,vp_match,vp_mismatch,32,43
+What he did was paint a painting.,What he created was paint a painting.,cleft,vp_match,vp_mismatch,37,44
+What the fans watched was the game.,What the fans did was the game.,cleft,np_match,np_mismatch,6,45
+What she wrote after talking to her lawyers about the situation was the contract.,What she did after talking to her lawyers about the situation was the contract.,cleft_modifier,np_match,np_mismatch,26,46
+What the worker did after entering the job site was lock the door.,What the worker installed after entering the job site was lock the door.,cleft_modifier,vp_match,vp_mismatch,20,47
+What the workers did after they signed a contract with the city government was pave the sidewalk.,What the workers walked down after they signed a contract with the city government was pave the sidewalk.,cleft_modifier,vp_match,vp_mismatch,10,48
+What the people collected every Thursday morning before work was the trash.,What the people did every Thursday morning before work was the trash.,cleft_modifier,np_match,np_mismatch,30,49
+What the army did after going through basic training and listening to propaganda was invade the country.,What the army loved after going through basic training and listening to propaganda was invade the country.,cleft_modifier,vp_match,vp_mismatch,17,50
+Who he did after he found out the horrible news was hug his friend.,Who he called after he found out the horrible news was hug his friend.,cleft_modifier,vp_match,vp_mismatch,33,51
+What the worker installed after entering the job site was the door.,What the worker did after entering the job site was the door.,cleft_modifier,np_match,np_mismatch,20,52
+What the people did every Thursday morning before work was remove the trash.,What the people collected every Thursday morning before work was remove the trash.,cleft_modifier,vp_match,vp_mismatch,30,53
+What the old man cooked after he had walked across the field and the forest was the chicken.,What the old man did after he had walked across the field and the forest was the chicken.,cleft_modifier,np_match,np_mismatch,9,54
+What he created in his spare time was a painting.,What he did in his spare time was a painting.,cleft_modifier,np_match,np_mismatch,37,55
+Who the police caught between the trial and the sentencing was the suspect.,Who the police did between the trial and the sentencing was the suspect.,cleft_modifier,np_match,np_mismatch,29,56
+What the woman did after hearing the troubling news was mail the letter.,What the woman wrote after hearing the troubling news was mail the letter.,cleft_modifier,vp_match,vp_mismatch,38,57
+What they did in the middle of the night was transport the drugs.,What they bought in the middle of the night was transport the drugs.,cleft_modifier,vp_match,vp_mismatch,32,58
+What he did in his spare time was paint a painting.,What he created in his spare time was paint a painting.,cleft_modifier,vp_match,vp_mismatch,37,59
+What the fans watched when their team played against the rival team was the game.,What the fans did when their team played against the rival team was the game.,cleft_modifier,np_match,np_mismatch,6,60
+The accountant knew who the security guard believed his friend knew the assistant reported the secretary introduced to her friend.,The accountant knew that the security guard believed his friend knew the assistant reported the secretary introduced to her friend.,fgd-embed3,what_gap,that_gap,2,61
+My friends all know that her friend knew the delivery man believed the cop believes the single mother described her woes to her friends.,My friends all know what her friend knew the delivery man believed the cop believes the single mother described her woes to her friends.,fgd-embed3,that_no-gap,what_no-gap,16,62
+The visitor said who my friend said her mother knew the minister stated the human resources officer talked with in her office.,The visitor said that my friend said her mother knew the minister stated the human resources officer talked with in her office.,fgd-embed3,what_gap,that_gap,17,63
+We all know that my neighbor said her associate knew a mutual friend stated the young professional assembled the bed for his parents.,We all know what my neighbor said her associate knew a mutual friend stated the young professional assembled the bed for his parents.,fgd-embed3,that_no-gap,what_no-gap,14,64
+I realized what the painter believed his rival suspected the colonel said the suffering artist saw at the museum.,I realized that the painter believed his rival suspected the colonel said the suffering artist saw at the museum.,fgd-embed3,what_gap,that_gap,12,65
+She said what the politician stated his press secretary said the chief of staff thought the reporter put on the table.,She said that the politician stated his press secretary said the chief of staff thought the reporter put on the table.,fgd-embed3,what_gap,that_gap,20,66
+I know what our mother said her friend remarked that the park attendant reported your friend threw into the trash can.,I know that our mother said her friend remarked that the park attendant reported your friend threw into the trash can.,fgd-embed3,what_gap,that_gap,1,67
+We all know that the old man thinks the woman knows the young boy said the teacher gave a test to her students.,We all know what the old man thinks the woman knows the young boy said the teacher gave a test to her students.,fgd-embed3,that_no-gap,what_no-gap,21,68
+The assistant told me what the man knew his friend recalled the woman said the pilot sent to his family.,The assistant told me that the man knew his friend recalled the woman said the pilot sent to his family.,fgd-embed3,what_gap,that_gap,3,69
+I know that the secretary said the journalist remarked that the workers decided the business man promised a raise to the factory workers.,I know what the secretary said the journalist remarked that the workers decided the business man promised a raise to the factory workers.,fgd-embed3,that_no-gap,what_no-gap,9,70
+We all know what my neighbor said her associate knew a mutual friend stated the young professional assembled for his parents.,We all know that my neighbor said her associate knew a mutual friend stated the young professional assembled for his parents.,fgd-embed3,what_gap,that_gap,14,71
+I know that our mother said her friend remarked that the park attendant reported your friend threw the plastic into the trash can.,I know what our mother said her friend remarked that the park attendant reported your friend threw the plastic into the trash can.,fgd-embed3,that_no-gap,what_no-gap,1,72
+The accountant knew that the security guard believed his friend knew the assistant reported the secretary introduced the new woman to her friend.,The accountant knew who the security guard believed his friend knew the assistant reported the secretary introduced the new woman to her friend.,fgd-embed3,that_no-gap,what_no-gap,2,73
+We discovered what the delivery boy remarked that the worker said that the gardener knew the funny actor told about the woman.,We discovered that the delivery boy remarked that the worker said that the gardener knew the funny actor told about the woman.,fgd-embed3,what_gap,that_gap,4,74
+We all know what the accountant said his colleague recalled the partners knew the investor repaid to the criminal kingpin.,We all know that the accountant said his colleague recalled the partners knew the investor repaid to the criminal kingpin.,fgd-embed3,what_gap,that_gap,8,75
+The accountant wondered who the security guard believed his friend knew the assistant reported her colleague suspected the secretary introduced to her friend.,The accountant wondered that the security guard believed his friend knew the assistant reported her colleague suspected the secretary introduced to her friend.,fgd-embed4,what_gap,that_gap,2,76
+My friends all know that her friend knew the delivery man believed the cop said his partner recalled the single mother described her woes to her friends.,My friends all know what her friend knew the delivery man believed the cop said his partner recalled the single mother described her woes to her friends.,fgd-embed4,that_no-gap,what_no-gap,16,77
+The visitor said who my friend said her mother knew the clerk stated his friend saw the human resources officer talked with in her office.,The visitor said that my friend said her mother knew the clerk stated his friend saw the human resources officer talked with in her office.,fgd-embed4,what_gap,that_gap,17,78
+We all know that my neighbor said her associate knew a friend thinks her sister believes the young professional assembled the bed for his parents.,We all know what my neighbor said her associate knew a friend thinks her sister believes the young professional assembled the bed for his parents.,fgd-embed4,that_no-gap,what_no-gap,14,79
+I realized what the painter believed his rival suspected the man said his friend recalls the suffering artist saw at the museum.,I realized that the painter believed his rival suspected the man said his friend recalls the suffering artist saw at the museum.,fgd-embed4,what_gap,that_gap,12,80
+She said what the politician stated his press secretary said the chief of staff thought his assistant suspects the reporter put on the table.,She said that the politician stated his press secretary said the chief of staff thought his assistant suspects the reporter put on the table.,fgd-embed4,what_gap,that_gap,20,81
+I know what our mother said her friend remarked that the park attendant reported the cop thinks your friend threw into the trash can.,I know that our mother said her friend remarked that the park attendant reported the cop thinks your friend threw into the trash can.,fgd-embed4,what_gap,that_gap,1,82
+We all know that the old man thinks the woman knows the young boy said his friend saw the teacher gave a test to her students.,We all know what the old man thinks the woman knows the young boy said his friend saw the teacher gave a test to her students.,fgd-embed4,that_no-gap,what_no-gap,21,83
+The assistant told me what the man knew his friend recalled the woman said her colleague saw the pilot sent to his family.,The assistant told me that the man knew his friend recalled the woman said her colleague saw the pilot sent to his family.,fgd-embed4,what_gap,that_gap,3,84
+I know that the secretary said the journalist remarked that the workers said their representatives think the business man promised a raise to the factory workers.,I know what the secretary said the journalist remarked that the workers said their representatives think the business man promised a raise to the factory workers.,fgd-embed4,that_no-gap,what_no-gap,9,85
+We all know what my neighbor said her associate knew a friend thinks her sister believes the young professional assembled for his parents.,We all know that my neighbor said her associate knew a friend thinks her sister believes the young professional assembled for his parents.,fgd-embed4,what_gap,that_gap,14,86
+I know that our mother said her friend remarked that the park attendant reported the cop thinks your friend threw the plastic into the trash can.,I know what our mother said her friend remarked that the park attendant reported the cop thinks your friend threw the plastic into the trash can.,fgd-embed4,that_no-gap,what_no-gap,1,87
+The accountant wondered that the security guard believed his friend knew the assistant reported her colleague suspected the secretary introduced the new woman to her friend.,The accountant wondered who the security guard believed his friend knew the assistant reported her colleague suspected the secretary introduced the new woman to her friend.,fgd-embed4,that_no-gap,what_no-gap,2,88
+We discovered what the delivery boy remarked that the worker said that the gardener knew the maid remembers the funny actor told about the woman.,We discovered that the delivery boy remarked that the worker said that the gardener knew the maid remembers the funny actor told about the woman.,fgd-embed4,what_gap,that_gap,4,89
+We all know what the accountant said his colleague recalled the partners knew their accountant suspects the investor repaid to the criminal kingpin.,We all know that the accountant said his colleague recalled the partners knew their accountant suspects the investor repaid to the criminal kingpin.,fgd-embed4,what_gap,that_gap,8,90
+The fact that the guard knew who the man shot last week worried the spy when he found out.,The fact that the guard knew that the man shot last week worried the spy when he found out.,fgd_hierarchy,what_subjgap,that_subjgap,11,91
+The fact that the detective knew that the suspect followed the drug dealer around town surprised his assistant when she found out.,The fact that the detective knew who the suspect followed the drug dealer around town surprised his assistant when she found out.,fgd_hierarchy,that_nogap,what_nogap,21,92
+The fact that the cop knows who the criminal shot with a gun pleased the mayor last year.,The fact that the cop knows that the criminal shot with a gun pleased the mayor last year.,fgd_hierarchy,what_subjgap,that_subjgap,2,93
+The fact that our mother does not know that her friend trusts her sister with her will surprised us when they found out.,The fact that our mother does not know who her friend trusts her sister with her will surprised us when they found out.,fgd_hierarchy,that_nogap,what_nogap,6,94
+The fact that my brother said who his friend trusted at the party surprised my daughter yesterday afternoon.,The fact that my brother said that his friend trusted at the party surprised my daughter yesterday afternoon.,fgd_hierarchy,what_subjgap,that_subjgap,1,95
+The fact that the social worker forgot who her client does not like with great passion delighted her friends last week.,The fact that the social worker forgot that her client does not like with great passion delighted her friends last week.,fgd_hierarchy,what_subjgap,that_subjgap,16,96
+The fact that the clerk indicated that her colleague recommended the man to the board worried the town clerk last month.,The fact that the clerk indicated who her colleague recommended the man to the board worried the town clerk last month.,fgd_hierarchy,that_nogap,what_nogap,17,97
+The fact that the journalist disclosed that the mayor talked with his rival last night shocked the donors when they found out.,The fact that the journalist disclosed who the mayor talked with his rival last night shocked the donors when they found out.,fgd_hierarchy,that_nogap,what_nogap,9,98
+The fact that the newspaper stated who the congressman bribed two years ago surprised his daughter when it was published.,The fact that the newspaper stated that the congressman bribed two years ago surprised his daughter when it was published.,fgd_hierarchy,what_subjgap,that_subjgap,13,99
+The fact that the cop knows that the criminal shot the old widow with a gun pleased the mayor last year.,The fact that the cop knows who the criminal shot the old widow with a gun pleased the mayor last year.,fgd_hierarchy,that_nogap,what_nogap,2,100
+The fact that the real estate agent knew that the old couple saw their friends at the club shocked his friends over the weekend.,The fact that the real estate agent knew who the old couple saw their friends at the club shocked his friends over the weekend.,fgd_hierarchy,that_nogap,what_nogap,4,101
+The fact that the assistant signaled who the police observed through a telescope confused the inspectors last month.,The fact that the assistant signaled that the police observed through a telescope confused the inspectors last month.,fgd_hierarchy,what_subjgap,that_subjgap,10,102
+The fact that the real estate agent knew who the old couple saw at the club shocked his friends over the weekend.,The fact that the real estate agent knew that the old couple saw at the club shocked his friends over the weekend.,fgd_hierarchy,what_subjgap,that_subjgap,4,103
+The fact that the chef knew who his assistant cut by accident surprised the customers yesterday evening.,The fact that the chef knew that his assistant cut by accident surprised the customers yesterday evening.,fgd_hierarchy,what_subjgap,that_subjgap,8,104
+The fact that we confirmed who our friend does not like greatly surprised my mother many years ago.,The fact that we confirmed that our friend does not like greatly surprised my mother many years ago.,fgd_hierarchy,what_subjgap,that_subjgap,20,105
+The newspaper reported who the suspect killed with a gun in the middle of the night.,The newspaper reported that the suspect killed with a gun in the middle of the night.,fgd_object,what_gap,that_gap,11,106
+Our neighbor reminded us that the truck dragged the car out of the swamp last spring.,Our neighbor reminded us what the truck dragged the car out of the swamp last spring.,fgd_object,that_nogap,what_nogap,21,107
+My neighbor told me what the dog caught in full view of the neighbors yesterday.,My neighbor told me that the dog caught in full view of the neighbors yesterday.,fgd_object,what_gap,that_gap,2,108
+She knows that the collector forged the painting with the help of a new technology a short while ago.,She knows what the collector forged the painting with the help of a new technology a short while ago.,fgd_object,that_nogap,what_nogap,6,109
+I know what our uncle grabbed in front of the guests at the holiday party.,I know that our uncle grabbed in front of the guests at the holiday party.,fgd_object,what_gap,that_gap,1,110
+My friend remembers what the government collected about foreign threats using illegal methods.,My friend remembers that the government collected about foreign threats using illegal methods.,fgd_object,what_gap,that_gap,16,111
+The newspaper said that the neighbors sold a convertible to the new couple last month.,The newspaper said what the neighbors sold a convertible to the new couple last month.,fgd_object,that_nogap,what_nogap,17,112
+I do not know that her rival derailed the performance with a cruel plan last week.,I do not know what her rival derailed the performance with a cruel plan last week.,fgd_object,that_nogap,what_nogap,9,113
+I remember what the nurse should administer to the sick patient without any delay.,I remember that the nurse should administer to the sick patient without any delay.,fgd_object,what_gap,that_gap,13,114
+My neighbor told me that the dog caught the mouse in full view of the neighbors yesterday.,My neighbor told me what the dog caught the mouse in full view of the neighbors yesterday.,fgd_object,that_nogap,what_nogap,2,115
+You remember that the businessman showed the presentation to the visitors after lunch.,You remember what the businessman showed the presentation to the visitors after lunch.,fgd_object,that_nogap,what_nogap,4,116
+She can guess what the movie star will get for her hard work during the award ceremony.,She can guess that the movie star will get for her hard work during the award ceremony.,fgd_object,what_gap,that_gap,10,117
+You remember what the businessman showed to the visitors after lunch.,You remember that the businessman showed to the visitors after lunch.,fgd_object,what_gap,that_gap,4,118
+My friend reported what the company will sell to benefit stock holders over the subsequent quarter.,My friend reported that the company will sell to benefit stock holders over the subsequent quarter.,fgd_object,what_gap,that_gap,8,119
+She can not believe what my good friend stole from the store when he was young.,She can not believe that my good friend stole from the store when he was young.,fgd_object,what_gap,that_gap,20,120
+The newspaper reported what the suspect killed the witness with in the middle of the night.,The newspaper reported that the suspect killed the witness with in the middle of the night.,fgd_pp,what_gap,that_gap,11,121
+Our neighbor reminded us that the truck dragged the car out of the swamp last spring.,Our neighbor reminded us what the truck dragged the car out of the swamp last spring.,fgd_pp,that_nogap,what_nogap,21,122
+My neighbor told me who the dog caught the mouse in full view of yesterday.,My neighbor told me that the dog caught the mouse in full view of yesterday.,fgd_pp,what_gap,that_gap,2,123
+She knows that the collector forged the painting with the help of a new technology a short while ago.,She knows what the collector forged the painting with the help of a new technology a short while ago.,fgd_pp,that_nogap,what_nogap,6,124
+I know who our uncle grabbed the food in front of at the holiday party.,I know that our uncle grabbed the food in front of at the holiday party.,fgd_pp,what_gap,that_gap,1,125
+My friend remembers what the government collected sensitive data about using illegal methods.,My friend remembers that the government collected sensitive data about using illegal methods.,fgd_pp,what_gap,that_gap,16,126
+The newspaper said that the neighbors sold a convertible to the new couple last month.,The newspaper said who the neighbors sold a convertible to the new couple last month.,fgd_pp,that_nogap,what_nogap,17,127
+I do not know that her rival derailed the performance with a cruel plan last week.,I do not know what her rival derailed the performance with a cruel plan last week.,fgd_pp,that_nogap,what_nogap,9,128
+I remember who the nurse should administer the new medicine to without any delay.,I remember that the nurse should administer the new medicine to without any delay.,fgd_pp,what_gap,that_gap,13,129
+My neighbor told me that the dog caught the mouse in full view of the neighbors yesterday.,My neighbor told me who the dog caught the mouse in full view of the neighbors yesterday.,fgd_pp,that_nogap,what_nogap,2,130
+You remember that the businessman showed the presentation to the visitors after lunch.,You remember who the businessman showed the presentation to the visitors after lunch.,fgd_pp,that_nogap,what_nogap,4,131
+She can guess what the movie star will be awarded a prize for during the award ceremony.,She can guess that the movie star will be awarded a prize for during the award ceremony.,fgd_pp,what_gap,that_gap,10,132
+You remember who the businessman showed the presentation to after lunch.,You remember that the businessman showed the presentation to after lunch.,fgd_pp,what_gap,that_gap,4,133
+My friend reported who the company will sell multiple assets for over the subsequent quarter.,My friend reported that the company will sell multiple assets for over the subsequent quarter.,fgd_pp,what_gap,that_gap,8,134
+She can not believe what my good friend stole a candy bar from when he was young.,She can not believe that my good friend stole a candy bar from when he was young.,fgd_pp,what_gap,that_gap,20,135
+The newspaper reported who killed the witness with a gun in the middle of the night.,The newspaper reported that killed the witness with a gun in the middle of the night.,fgd_subject,what_gap,that_gap,11,136
+Our neighbor reminded us that the truck dragged the car out of the swamp last spring.,Our neighbor reminded us what the truck dragged the car out of the swamp last spring.,fgd_subject,that_nogap,what_nogap,21,137
+My neighbor told me what caught the mouse in full view of the neighbors yesterday.,My neighbor told me that caught the mouse in full view of the neighbors yesterday.,fgd_subject,what_gap,that_gap,2,138
+She knows that the collector forged the painting with the help of a new technology a short while ago.,She knows who the collector forged the painting with the help of a new technology a short while ago.,fgd_subject,that_nogap,what_nogap,6,139
+I know who grabbed the food in front of the guests at the holiday party.,I know that grabbed the food in front of the guests at the holiday party.,fgd_subject,what_gap,that_gap,1,140
+My friend remembers what collected sensitive data about foreign threats using illegal methods.,My friend remembers that collected sensitive data about foreign threats using illegal methods.,fgd_subject,what_gap,that_gap,16,141
+The newspaper said that the neighbors sold a convertible to the new couple last month.,The newspaper said who the neighbors sold a convertible to the new couple last month.,fgd_subject,that_nogap,what_nogap,17,142
+I do not know that her rival derailed the performance with a cruel plan last week.,I do not know who her rival derailed the performance with a cruel plan last week.,fgd_subject,that_nogap,what_nogap,9,143
+I remember who should administer the new medicine to the sick patient without any delay.,I remember that should administer the new medicine to the sick patient without any delay.,fgd_subject,what_gap,that_gap,13,144
+My neighbor told me that the dog caught the mouse in full view of the neighbors yesterday.,My neighbor told me what the dog caught the mouse in full view of the neighbors yesterday.,fgd_subject,that_nogap,what_nogap,2,145
+You remember that the businessman showed the presentation to the visitors after lunch.,You remember who the businessman showed the presentation to the visitors after lunch.,fgd_subject,that_nogap,what_nogap,4,146
+She can guess who will be awarded a prize for her hard work during the award ceremony.,She can guess that will be awarded a prize for her hard work during the award ceremony.,fgd_subject,what_gap,that_gap,10,147
+You remember who showed the presentation to the visitors after lunch.,You remember that showed the presentation to the visitors after lunch.,fgd_subject,what_gap,that_gap,4,148
+My friend reported what will sell multiple assets to benefit stock holders over the subsequent quarter.,My friend reported that will sell multiple assets to benefit stock holders over the subsequent quarter.,fgd_subject,what_gap,that_gap,8,149
+She can not believe who stole a candy bar from the store when he was young.,She can not believe that stole a candy bar from the store when he was young.,fgd_subject,what_gap,that_gap,20,150
+The doctors that the guard doubted interest people.,The doctors that the guard doubted interests people.,number_orc,match_plural,mismatch_plural,3,151
+The athletes that the doctor admired bring good feelings.,The athletes that the doctor admired brings good feelings.,number_orc,match_plural,mismatch_plural,14,152
+The minister that the managers injured knows many people.,The minister that the managers injured know many people.,number_orc,match_sing,mismatch_sing,16,153
+The ministers that the manager injured know tennis.,The ministers that the manager injured knows tennis.,number_orc,match_plural,mismatch_plural,16,154
+The authors that the senator hurt are good.,The authors that the senator hurt is good.,number_orc,match_plural,mismatch_plural,1,155
+The pilots that the teacher injured bring love to people.,The pilots that the teacher injured brings love to people.,number_orc,match_plural,mismatch_plural,2,156
+The executive that the teachers disguised is good.,The executive that the teachers disguised are good.,number_orc,match_sing,mismatch_sing,19,157
+The teachers that the minister hurt are good.,The teachers that the minister hurt is good.,number_orc,match_plural,mismatch_plural,8,158
+The author that the senators hurt is good.,The author that the senators hurt are good.,number_orc,match_sing,mismatch_sing,1,159
+The pilot that the teachers injured brings love to people.,The pilot that the teachers injured bring love to people.,number_orc,match_sing,mismatch_sing,2,160
+The farmers that the clerk embarrassed know many people.,The farmers that the clerk embarrassed knows many people.,number_orc,match_plural,mismatch_plural,4,161
+The senator that the actors injured is good.,The senator that the actors injured are good.,number_orc,match_sing,mismatch_sing,9,162
+The guards that the executive embarrassed are playing tennis.,The guards that the executive embarrassed is playing tennis.,number_orc,match_plural,mismatch_plural,11,163
+The clerks that the author disguised are good.,The clerks that the author disguised is good.,number_orc,match_plural,mismatch_plural,12,164
+The officers that the actor liked are good.,The officers that the actor liked is good.,number_orc,match_plural,mismatch_plural,7,165
+The doctors in front of the guard interest people.,The doctors in front of the guard interests people.,number_prep,match_plural,mismatch_plural,3,166
+The athletes behind the doctor bring good feelings.,The athletes behind the doctor brings good feelings.,number_prep,match_plural,mismatch_plural,14,167
+The minister near the managers knows many people.,The minister near the managers know many people.,number_prep,match_sing,mismatch_sing,16,168
+The ministers near the manager know tennis.,The ministers near the manager knows tennis.,number_prep,match_plural,mismatch_plural,16,169
+The authors next to the senator are good.,The authors next to the senator is good.,number_prep,match_plural,mismatch_plural,1,170
+The pilots behind the teacher bring love to people.,The pilots behind the teacher brings love to people.,number_prep,match_plural,mismatch_plural,2,171
+The executive next to the teachers is good.,The executive next to the teachers are good.,number_prep,match_sing,mismatch_sing,19,172
+The teachers behind the minister are good.,The teachers behind the minister is good.,number_prep,match_plural,mismatch_plural,8,173
+The author next to the senators is good.,The author next to the senators are good.,number_prep,match_sing,mismatch_sing,1,174
+The pilot behind the teachers brings love to people.,The pilot behind the teachers bring love to people.,number_prep,match_sing,mismatch_sing,2,175
+The farmers near the clerk know many people.,The farmers near the clerk knows many people.,number_prep,match_plural,mismatch_plural,4,176
+The senator in front of the actors is good.,The senator in front of the actors are good.,number_prep,match_sing,mismatch_sing,9,177
+The guards to the side of the executive are playing tennis.,The guards to the side of the executive is playing tennis.,number_prep,match_plural,mismatch_plural,11,178
+The clerks across from the author are good.,The clerks across from the author is good.,number_prep,match_plural,mismatch_plural,12,179
+The officers next to the actor are good.,The officers next to the actor is good.,number_prep,match_plural,mismatch_plural,7,180
+The doctors that ignored the guard interest people.,The doctors that ignored the guard interests people.,number_src,match_plural,mismatch_plural,3,181
+The athletes that admired the doctor bring good feelings.,The athletes that admired the doctor brings good feelings.,number_src,match_plural,mismatch_plural,14,182
+The minister that injured the managers knows many people.,The minister that injured the managers know many people.,number_src,match_sing,mismatch_sing,16,183
+The ministers that injured the manager know tennis.,The ministers that injured the manager knows tennis.,number_src,match_plural,mismatch_plural,16,184
+The authors that hurt the senator are good.,The authors that hurt the senator is good.,number_src,match_plural,mismatch_plural,1,185
+The pilots that injured the teacher bring love to people.,The pilots that injured the teacher brings love to people.,number_src,match_plural,mismatch_plural,2,186
+The executive that disguised the teachers is good.,The executive that disguised the teachers are good.,number_src,match_sing,mismatch_sing,19,187
+The teachers that hurt the minister are good.,The teachers that hurt the minister is good.,number_src,match_plural,mismatch_plural,8,188
+The author that hurt the senators is good.,The author that hurt the senators are good.,number_src,match_sing,mismatch_sing,1,189
+The pilot that injured the teachers brings love to people.,The pilot that injured the teachers bring love to people.,number_src,match_sing,mismatch_sing,2,190
+The farmers that embarrassed the clerk know many people.,The farmers that embarrassed the clerk knows many people.,number_src,match_plural,mismatch_plural,4,191
+The senator that injured the actors is good.,The senator that injured the actors are good.,number_src,match_sing,mismatch_sing,9,192
+The guards that embarrassed the executive are playing tennis.,The guards that embarrassed the executive is playing tennis.,number_src,match_plural,mismatch_plural,11,193
+The clerks that disguised the author are good.,The clerks that disguised the author is good.,number_src,match_plural,mismatch_plural,12,194
+The officers that liked the actor are good.,The officers that liked the actor is good.,number_src,match_plural,mismatch_plural,7,195
+The doctors that the guard hated suspected themselves.,The doctors that the guard hated suspected herself.,reflexive_orc_fem,match_plural,mismatch_plural,3,196
+The athletes that the doctor discussed disguised themselves.,The athletes that the doctor discussed disguised herself.,reflexive_orc_fem,match_plural,mismatch_plural,14,197
+The minister that the managers liked injured herself.,The minister that the managers liked injured themselves.,reflexive_orc_fem,match_sing,mismatch_sing,16,198
+The ministers that the manager liked doubted themselves.,The ministers that the manager liked doubted herself.,reflexive_orc_fem,match_plural,mismatch_plural,16,199
+The authors that the senator liked hurt themselves.,The authors that the senator liked hurt herself.,reflexive_orc_fem,match_plural,mismatch_plural,1,200
+The pilots that the teacher met injured themselves.,The pilots that the teacher met injured herself.,reflexive_orc_fem,match_plural,mismatch_plural,2,201
+The executive that the teachers discussed disguised herself.,The executive that the teachers discussed disguised themselves.,reflexive_orc_fem,match_sing,mismatch_sing,19,202
+The teachers that the minister hated hated themselves.,The teachers that the minister hated hated herself.,reflexive_orc_fem,match_plural,mismatch_plural,8,203
+The author that the senators liked hurt herself.,The author that the senators liked hurt themselves.,reflexive_orc_fem,match_sing,mismatch_sing,1,204
+The pilot that the teachers met injured herself.,The pilot that the teachers met injured themselves.,reflexive_orc_fem,match_sing,mismatch_sing,2,205
+The farmers that the clerk discussed injured themselves.,The farmers that the clerk discussed injured herself.,reflexive_orc_fem,match_plural,mismatch_plural,4,206
+The senator that the actors discussed injured herself.,The senator that the actors discussed injured themselves.,reflexive_orc_fem,match_sing,mismatch_sing,9,207
+The guards that the executive liked injured themselves.,The guards that the executive liked injured herself.,reflexive_orc_fem,match_plural,mismatch_plural,11,208
+The clerks that the author met suspected themselves.,The clerks that the author met suspected herself.,reflexive_orc_fem,match_plural,mismatch_plural,12,209
+The officers that the actor met disguised themselves.,The officers that the actor met disguised herself.,reflexive_orc_fem,match_plural,mismatch_plural,7,210
+The doctors that the guard hated trusted themselves.,The doctors that the guard hated trusted himself.,reflexive_orc_masc,match_plural,mismatch_plural,3,211
+The athletes that the doctor discussed disguised themselves.,The athletes that the doctor discussed disguised himself.,reflexive_orc_masc,match_plural,mismatch_plural,14,212
+The minister that the managers liked injured himself.,The minister that the managers liked injured themselves.,reflexive_orc_masc,match_sing,mismatch_sing,16,213
+The ministers that the manager liked doubted themselves.,The ministers that the manager liked doubted himself.,reflexive_orc_masc,match_plural,mismatch_plural,16,214
+The authors that the senator liked hurt themselves.,The authors that the senator liked hurt himself.,reflexive_orc_masc,match_plural,mismatch_plural,1,215
+The pilots that the teacher met injured themselves.,The pilots that the teacher met injured himself.,reflexive_orc_masc,match_plural,mismatch_plural,2,216
+The executive that the teachers discussed disguised himself.,The executive that the teachers discussed disguised themselves.,reflexive_orc_masc,match_sing,mismatch_sing,19,217
+The teachers that the minister hated hated themselves.,The teachers that the minister hated hated himself.,reflexive_orc_masc,match_plural,mismatch_plural,8,218
+The author that the senators liked hurt himself.,The author that the senators liked hurt themselves.,reflexive_orc_masc,match_sing,mismatch_sing,1,219
+The pilot that the teachers met injured himself.,The pilot that the teachers met injured themselves.,reflexive_orc_masc,match_sing,mismatch_sing,2,220
+The farmers that the clerk discussed injured themselves.,The farmers that the clerk discussed injured himself.,reflexive_orc_masc,match_plural,mismatch_plural,4,221
+The senator that the actors discussed injured himself.,The senator that the actors discussed injured themselves.,reflexive_orc_masc,match_sing,mismatch_sing,9,222
+The guards that the executive liked injured themselves.,The guards that the executive liked injured himself.,reflexive_orc_masc,match_plural,mismatch_plural,11,223
+The clerks that the author met trusted themselves.,The clerks that the author met trusted himself.,reflexive_orc_masc,match_plural,mismatch_plural,12,224
+The officers that the actor met disguised themselves.,The officers that the actor met disguised himself.,reflexive_orc_masc,match_plural,mismatch_plural,7,225
+The doctors in front of the guard trusted themselves.,The doctors in front of the guard trusted herself.,reflexive_prep_fem,match_plural,mismatch_plural,3,226
+The athletes behind the doctor doubted themselves.,The athletes behind the doctor doubted herself.,reflexive_prep_fem,match_plural,mismatch_plural,14,227
+The minister near the managers injured herself.,The minister near the managers injured themselves.,reflexive_prep_fem,match_sing,mismatch_sing,16,228
+The ministers near the manager injured themselves.,The ministers near the manager injured herself.,reflexive_prep_fem,match_plural,mismatch_plural,16,229
+The authors next to the senator hurt themselves.,The authors next to the senator hurt herself.,reflexive_prep_fem,match_plural,mismatch_plural,1,230
+The pilots behind the teacher injured themselves.,The pilots behind the teacher injured herself.,reflexive_prep_fem,match_plural,mismatch_plural,2,231
+The executive next to the teachers disguised herself.,The executive next to the teachers disguised themselves.,reflexive_prep_fem,match_sing,mismatch_sing,19,232
+The teachers behind the minister hurt themselves.,The teachers behind the minister hurt herself.,reflexive_prep_fem,match_plural,mismatch_plural,8,233
+The author next to the senators hurt herself.,The author next to the senators hurt themselves.,reflexive_prep_fem,match_sing,mismatch_sing,1,234
+The pilot behind the teachers injured herself.,The pilot behind the teachers injured themselves.,reflexive_prep_fem,match_sing,mismatch_sing,2,235
+The farmers near the clerk embarrassed themselves.,The farmers near the clerk embarrassed herself.,reflexive_prep_fem,match_plural,mismatch_plural,4,236
+The senator in front of the actors injured herself.,The senator in front of the actors injured themselves.,reflexive_prep_fem,match_sing,mismatch_sing,9,237
+The guards to the side of the executive embarrassed themselves.,The guards to the side of the executive embarrassed herself.,reflexive_prep_fem,match_plural,mismatch_plural,11,238
+The clerks across from the author disguised themselves.,The clerks across from the author disguised herself.,reflexive_prep_fem,match_plural,mismatch_plural,12,239
+The officers next to the actor doubted themselves.,The officers next to the actor doubted herself.,reflexive_prep_fem,match_plural,mismatch_plural,7,240
+The doctors in front of the guard suspected themselves.,The doctors in front of the guard suspected himself.,reflexive_prep_masc,match_plural,mismatch_plural,3,241
+The athletes behind the doctor doubted themselves.,The athletes behind the doctor doubted himself.,reflexive_prep_masc,match_plural,mismatch_plural,14,242
+The minister near the managers injured himself.,The minister near the managers injured themselves.,reflexive_prep_masc,match_sing,mismatch_sing,16,243
+The ministers near the manager injured themselves.,The ministers near the manager injured himself.,reflexive_prep_masc,match_plural,mismatch_plural,16,244
+The authors next to the senator hurt themselves.,The authors next to the senator hurt himself.,reflexive_prep_masc,match_plural,mismatch_plural,1,245
+The pilots behind the teacher injured themselves.,The pilots behind the teacher injured himself.,reflexive_prep_masc,match_plural,mismatch_plural,2,246
+The executive next to the teachers disguised himself.,The executive next to the teachers disguised themselves.,reflexive_prep_masc,match_sing,mismatch_sing,19,247
+The teachers behind the minister hurt themselves.,The teachers behind the minister hurt himself.,reflexive_prep_masc,match_plural,mismatch_plural,8,248
+The author next to the senators hurt himself.,The author next to the senators hurt themselves.,reflexive_prep_masc,match_sing,mismatch_sing,1,249
+The pilot behind the teachers injured himself.,The pilot behind the teachers injured themselves.,reflexive_prep_masc,match_sing,mismatch_sing,2,250
+The farmers near the clerk embarrassed themselves.,The farmers near the clerk embarrassed himself.,reflexive_prep_masc,match_plural,mismatch_plural,4,251
+The senator in front of the actors injured himself.,The senator in front of the actors injured themselves.,reflexive_prep_masc,match_sing,mismatch_sing,9,252
+The guards to the side of the executive embarrassed themselves.,The guards to the side of the executive embarrassed himself.,reflexive_prep_masc,match_plural,mismatch_plural,11,253
+The clerks across from the author disguised themselves.,The clerks across from the author disguised himself.,reflexive_prep_masc,match_plural,mismatch_plural,12,254
+The officers next to the actor doubted themselves.,The officers next to the actor doubted himself.,reflexive_prep_masc,match_plural,mismatch_plural,7,255
+The doctors that hated the guard trusted themselves.,The doctors that hated the guard trusted herself.,reflexive_src_fem,match_plural,mismatch_plural,3,256
+The athletes that discussed the doctor disguised themselves.,The athletes that discussed the doctor disguised herself.,reflexive_src_fem,match_plural,mismatch_plural,14,257
+The minister that liked the managers injured herself.,The minister that liked the managers injured themselves.,reflexive_src_fem,match_sing,mismatch_sing,16,258
+The ministers that liked the manager doubted themselves.,The ministers that liked the manager doubted herself.,reflexive_src_fem,match_plural,mismatch_plural,16,259
+The authors that liked the senator hurt themselves.,The authors that liked the senator hurt herself.,reflexive_src_fem,match_plural,mismatch_plural,1,260
+The pilots that met the teacher injured themselves.,The pilots that met the teacher injured herself.,reflexive_src_fem,match_plural,mismatch_plural,2,261
+The executive that discussed the teachers disguised herself.,The executive that discussed the teachers disguised themselves.,reflexive_src_fem,match_sing,mismatch_sing,19,262
+The teachers that hated the minister hated themselves.,The teachers that hated the minister hated herself.,reflexive_src_fem,match_plural,mismatch_plural,8,263
+The author that liked the senators hurt herself.,The author that liked the senators hurt themselves.,reflexive_src_fem,match_sing,mismatch_sing,1,264
+The pilot that met the teachers injured herself.,The pilot that met the teachers injured themselves.,reflexive_src_fem,match_sing,mismatch_sing,2,265
+The farmers that discussed the clerk injured themselves.,The farmers that discussed the clerk injured herself.,reflexive_src_fem,match_plural,mismatch_plural,4,266
+The senator that discussed the actors injured herself.,The senator that discussed the actors injured themselves.,reflexive_src_fem,match_sing,mismatch_sing,9,267
+The guards that liked the executive injured themselves.,The guards that liked the executive injured herself.,reflexive_src_fem,match_plural,mismatch_plural,11,268
+The clerks that met the author trusted themselves.,The clerks that met the author trusted herself.,reflexive_src_fem,match_plural,mismatch_plural,12,269
+The officers that met the actor disguised themselves.,The officers that met the actor disguised herself.,reflexive_src_fem,match_plural,mismatch_plural,7,270
+The doctors that hated the guard trusted themselves.,The doctors that hated the guard trusted himself.,reflexive_src_masc,match_plural,mismatch_plural,3,271
+The athletes that discussed the doctor disguised themselves.,The athletes that discussed the doctor disguised himself.,reflexive_src_masc,match_plural,mismatch_plural,14,272
+The minister that liked the managers injured himself.,The minister that liked the managers injured themselves.,reflexive_src_masc,match_sing,mismatch_sing,16,273
+The ministers that liked the manager doubted themselves.,The ministers that liked the manager doubted himself.,reflexive_src_masc,match_plural,mismatch_plural,16,274
+The authors that liked the senator hurt themselves.,The authors that liked the senator hurt himself.,reflexive_src_masc,match_plural,mismatch_plural,1,275
+The pilots that met the teacher injured themselves.,The pilots that met the teacher injured himself.,reflexive_src_masc,match_plural,mismatch_plural,2,276
+The executive that discussed the teachers disguised himself.,The executive that discussed the teachers disguised themselves.,reflexive_src_masc,match_sing,mismatch_sing,19,277
+The teachers that hated the minister hated themselves.,The teachers that hated the minister hated himself.,reflexive_src_masc,match_plural,mismatch_plural,8,278
+The author that liked the senators hurt himself.,The author that liked the senators hurt themselves.,reflexive_src_masc,match_sing,mismatch_sing,1,279
+The pilot that met the teachers injured himself.,The pilot that met the teachers injured themselves.,reflexive_src_masc,match_sing,mismatch_sing,2,280
+The farmers that discussed the clerk injured themselves.,The farmers that discussed the clerk injured himself.,reflexive_src_masc,match_plural,mismatch_plural,4,281
+The senator that discussed the actors injured himself.,The senator that discussed the actors injured themselves.,reflexive_src_masc,match_sing,mismatch_sing,9,282
+The guards that liked the executive injured themselves.,The guards that liked the executive injured himself.,reflexive_src_masc,match_plural,mismatch_plural,11,283
+The clerks that met the author trusted themselves.,The clerks that met the author trusted himself.,reflexive_src_masc,match_plural,mismatch_plural,12,284
+The officers that met the actor disguised themselves.,The officers that met the actor disguised himself.,reflexive_src_masc,match_plural,mismatch_plural,7,285
+"While the pianist practiced the music, the conductor stretched his arms.","The pianist practiced the music, the conductor stretched his arms.",subordination,sub_matrix,no-sub_matrix,13,286
+"After the man shot the bird, he loaded his gun.","The man shot the bird, he loaded his gun.",subordination,sub_matrix,no-sub_matrix,2,287
+"Before the students handed in their papers, they revised them all night long.","The students handed in their papers, they revised them all night long.",subordination,sub_matrix,no-sub_matrix,23,288
+The general entered the camp.,When the general entered the camp.,subordination,no-sub_no-matrix,sub_no-matrix,4,289
+"Although the students enjoyed the novel, the teacher considered it poorly written.","The students enjoyed the novel, the teacher considered it poorly written.",subordination,sub_matrix,no-sub_matrix,14,290
+The scientist broke the computer.,Because the scientist broke the computer.,subordination,no-sub_no-matrix,sub_no-matrix,9,291
+"Since the nurse lost her documents, she administered the wrong medicine.","The nurse lost her documents, she administered the wrong medicine.",subordination,sub_matrix,no-sub_matrix,8,292
+The politicians passed the new law.,When the politicians passed the new law.,subordination,no-sub_no-matrix,sub_no-matrix,21,293
+"When the general entered the camp, the soldiers cheered.","The general entered the camp, the soldiers cheered.",subordination,sub_matrix,no-sub_matrix,4,294
+"When the police found new evidence, the judge declared a mistrial.","The police found new evidence, the judge declared a mistrial.",subordination,sub_matrix,no-sub_matrix,22,295
+The man shot the bird.,After the man shot the bird.,subordination,no-sub_no-matrix,sub_no-matrix,2,296
+"As the doctor studied the book, the nurse walked into the room.","The doctor studied the book, the nurse walked into the room.",subordination,sub_matrix,no-sub_matrix,1,297
+"After the diplomat presented the file, the ambassador gave a speech.","The diplomat presented the file, the ambassador gave a speech.",subordination,sub_matrix,no-sub_matrix,17,298
+"Because the students did not like the material, they complained to the principal.","The students did not like the material, they complained to the principal.",subordination,sub_matrix,no-sub_matrix,3,299
+The students handed in their papers.,Before the students handed in their papers.,subordination,no-sub_no-matrix,sub_no-matrix,23,300
+"While the pianist who the critic did not like practiced the music that the composer had written, the conductor stretched his arms.","The pianist who the critic did not like practiced the music that the composer had written, the conductor stretched his arms.",subordination_orc-orc,sub_matrix,no-sub_matrix,13,301
+"After the man who a friend had helped shot the bird that he had been tracking secretly, he loaded his gun.","The man who a friend had helped shot the bird that he had been tracking secretly, he loaded his gun.",subordination_orc-orc,sub_matrix,no-sub_matrix,2,302
+"Before the students who the committee had praised handed in their papers that the teacher assigned them, they revised them all night long.","The students who the committee had praised handed in their papers that the teacher assigned them, they revised them all night long.",subordination_orc-orc,sub_matrix,no-sub_matrix,23,303
+The general who the officer had given a uniform entered the camp that the colonel constructed two years ago.,When the general who the officer had given a uniform entered the camp that the colonel constructed two years ago.,subordination_orc-orc,no-sub_no-matrix,sub_no-matrix,4,304
+"Although the students who the principle had disciplined enjoyed the novel that the school administrator had written, the teacher considered it poorly written.","The students who the principle had disciplined enjoyed the novel that the school administrator had written, the teacher considered it poorly written.",subordination_orc-orc,sub_matrix,no-sub_matrix,14,305
+The scientist who the contractor had recommended broke the computer that the administrator moved to the basement.,Because the scientist who the contractor had recommended broke the computer that the administrator moved to the basement.,subordination_orc-orc,no-sub_no-matrix,sub_no-matrix,9,306
+"Since the nurse who the doctor had met only once lost her documents that she had bought from an expensive store, she administered the wrong medicine.","The nurse who the doctor had met only once lost her documents that she had bought from an expensive store, she administered the wrong medicine.",subordination_orc-orc,sub_matrix,no-sub_matrix,8,307
+The politicians who the lobbyists trusted passed the new law that all the shop owners strongly opposed.,When the politicians who the lobbyists trusted passed the new law that all the shop owners strongly opposed.,subordination_orc-orc,no-sub_no-matrix,sub_no-matrix,21,308
+"When the general who the officer had given a uniform entered the camp that the colonel constructed two years ago, the soldiers cheered.","The general who the officer had given a uniform entered the camp that the colonel constructed two years ago, the soldiers cheered.",subordination_orc-orc,sub_matrix,no-sub_matrix,4,309
+"When the police who the officer had given pistols found new evidence that the suspect had hidden, the judge declared a mistrial.","The police who the officer had given pistols found new evidence that the suspect had hidden, the judge declared a mistrial.",subordination_orc-orc,sub_matrix,no-sub_matrix,22,310
+The man who a friend had helped shot the bird that he had been tracking secretly.,After the man who a friend had helped shot the bird that he had been tracking secretly.,subordination_orc-orc,no-sub_no-matrix,sub_no-matrix,2,311
+"As the doctor who the administrator had recently hired studied the book that colleagues had written on cancer therapy, the nurse walked into the room.","The doctor who the administrator had recently hired studied the book that colleagues had written on cancer therapy, the nurse walked into the room.",subordination_orc-orc,sub_matrix,no-sub_matrix,1,312
+"After the diplomat who the spy had contacted repeatedly presented the file that the assistant had written, the ambassador gave a speech.","The diplomat who the spy had contacted repeatedly presented the file that the assistant had written, the ambassador gave a speech.",subordination_orc-orc,sub_matrix,no-sub_matrix,17,313
+"Because the students who the teacher had in her class did not like the material that the teacher used to cover evolution, they complained to the principal.","The students who the teacher had in her class did not like the material that the teacher used to cover evolution, they complained to the principal.",subordination_orc-orc,sub_matrix,no-sub_matrix,3,314
+The students who the committee had praised handed in their papers that the teacher assigned them.,Before the students who the committee had praised handed in their papers that the teacher assigned them.,subordination_orc-orc,no-sub_no-matrix,sub_no-matrix,23,315
+"While the pianist with the long fingers practiced the music with a difficult time signature, the conductor stretched his arms.","The pianist with the long fingers practiced the music with a difficult time signature, the conductor stretched his arms.",subordination_pp-pp,sub_matrix,no-sub_matrix,13,316
+"After the man with a very expensive gun shot the bird on the run for its life, he loaded his gun.","The man with a very expensive gun shot the bird on the run for its life, he loaded his gun.",subordination_pp-pp,sub_matrix,no-sub_matrix,2,317
+"Before the students from foreign countries in Europe handed in their papers on the modern art world, they revised them all night long.","The students from foreign countries in Europe handed in their papers on the modern art world, they revised them all night long.",subordination_pp-pp,sub_matrix,no-sub_matrix,23,318
+The general in the green uniform and black shoes entered the camp in the middle of the busy camp.,When the general in the green uniform and black shoes entered the camp in the middle of the busy camp.,subordination_pp-pp,no-sub_no-matrix,sub_no-matrix,4,319
+"Although the students in the third year class enjoyed the novel about life during the civil war, the teacher considered it poorly written.","The students in the third year class enjoyed the novel about life during the civil war, the teacher considered it poorly written.",subordination_pp-pp,sub_matrix,no-sub_matrix,14,320
+The scientist in blue pants and gloves broke the computer in the basement of the office building.,Because the scientist in blue pants and gloves broke the computer in the basement of the office building.,subordination_pp-pp,no-sub_no-matrix,sub_no-matrix,9,321
+"Since the nurse from the neighboring hospital down the street lost her documents from the expensive jewelry store down the street, she administered the wrong medicine.","The nurse from the neighboring hospital down the street lost her documents from the expensive jewelry store down the street, she administered the wrong medicine.",subordination_pp-pp,sub_matrix,no-sub_matrix,8,322
+The politicians with white hair expensive suits passed the new law on tax reform and student debt.,When the politicians with white hair expensive suits passed the new law on tax reform and student debt.,subordination_pp-pp,no-sub_no-matrix,sub_no-matrix,21,323
+"When the general in the green uniform and black shoes entered the camp in the middle of the busy camp, the soldiers cheered.","The general in the green uniform and black shoes entered the camp in the middle of the busy camp, the soldiers cheered.",subordination_pp-pp,sub_matrix,no-sub_matrix,4,324
+"When the police from the small town in Alabama found new evidence about the alleged art theft, the judge declared a mistrial.","The police from the small town in Alabama found new evidence about the alleged art theft, the judge declared a mistrial.",subordination_pp-pp,sub_matrix,no-sub_matrix,22,325
+The man with a very expensive gun shot the bird on the run for its life.,After the man with a very expensive gun shot the bird on the run for its life.,subordination_pp-pp,no-sub_no-matrix,sub_no-matrix,2,326
+"As the doctor in a long white lab jacket studied the book about several recent advances in cancer therapy, the nurse walked into the room.","The doctor in a long white lab jacket studied the book about several recent advances in cancer therapy, the nurse walked into the room.",subordination_pp-pp,sub_matrix,no-sub_matrix,1,327
+"After the diplomat from the friendly country in Africa presented the file on international peace and cooperation, the ambassador gave a speech.","The diplomat from the friendly country in Africa presented the file on international peace and cooperation, the ambassador gave a speech.",subordination_pp-pp,sub_matrix,no-sub_matrix,17,328
+"Because the students in the teacher 's third grade class did not like the material on the evolution of the human skeleton, they complained to the principal.","The students in the teacher 's third grade class did not like the material on the evolution of the human skeleton, they complained to the principal.",subordination_pp-pp,sub_matrix,no-sub_matrix,3,329
+The students from foreign countries in Europe handed in their papers on the modern art world.,Before the students from foreign countries in Europe handed in their papers on the modern art world.,subordination_pp-pp,no-sub_no-matrix,sub_no-matrix,23,330
+"While the pianist who had long fingers practiced the music that was written long ago, the conductor stretched his arms.","The pianist who had long fingers practiced the music that was written long ago, the conductor stretched his arms.",subordination_src-src,sub_matrix,no-sub_matrix,13,331
+"After the man who was carrying a gun shot the bird that was running away from him, he loaded his gun.","The man who was carrying a gun shot the bird that was running away from him, he loaded his gun.",subordination_src-src,sub_matrix,no-sub_matrix,2,332
+"Before the students who were from foreign countries handed in their papers that were about modern art, they revised them all night long.","The students who were from foreign countries handed in their papers that were about modern art, they revised them all night long.",subordination_src-src,sub_matrix,no-sub_matrix,23,333
+The general who wore a green uniform every day entered the camp that stood in the middle of camp.,When the general who wore a green uniform every day entered the camp that stood in the middle of camp.,subordination_src-src,no-sub_no-matrix,sub_no-matrix,4,334
+"Although the students who were in seventh grade enjoyed the novel that was about the civil war, the teacher considered it poorly written.","The students who were in seventh grade enjoyed the novel that was about the civil war, the teacher considered it poorly written.",subordination_src-src,sub_matrix,no-sub_matrix,14,335
+The scientist who was wearing blue pants broke the computer that was housed on the top floor.,Because the scientist who was wearing blue pants broke the computer that was housed on the top floor.,subordination_src-src,no-sub_no-matrix,sub_no-matrix,9,336
+"Since the nurse who were from the neighboring research hospital lost her documents that were purchased from the expensive jewelry store, she administered the wrong medicine.","The nurse who were from the neighboring research hospital lost her documents that were purchased from the expensive jewelry store, she administered the wrong medicine.",subordination_src-src,sub_matrix,no-sub_matrix,8,337
+The politicians who wore dark suits passed the new law that raised taxes on businesses and corporations.,When the politicians who wore dark suits passed the new law that raised taxes on businesses and corporations.,subordination_src-src,no-sub_no-matrix,sub_no-matrix,21,338
+"When the general who wore a green uniform every day entered the camp that stood in the middle of camp, the soldiers cheered.","The general who wore a green uniform every day entered the camp that stood in the middle of camp, the soldiers cheered.",subordination_src-src,sub_matrix,no-sub_matrix,4,339
+"When the police who carried pistols on their belts found new evidence that was relevant to the murder, the judge declared a mistrial.","The police who carried pistols on their belts found new evidence that was relevant to the murder, the judge declared a mistrial.",subordination_src-src,sub_matrix,no-sub_matrix,22,340
+The man who was carrying a gun shot the bird that was running away from him.,After the man who was carrying a gun shot the bird that was running away from him.,subordination_src-src,no-sub_no-matrix,sub_no-matrix,2,341
+"As the doctor who wore a white lab jacket studied the book that described several advances in cancer therapy, the nurse walked into the room.","The doctor who wore a white lab jacket studied the book that described several advances in cancer therapy, the nurse walked into the room.",subordination_src-src,sub_matrix,no-sub_matrix,1,342
+"After the diplomat who was from the friendly country presented the file that expressed hope for cooperation, the ambassador gave a speech.","The diplomat who was from the friendly country presented the file that expressed hope for cooperation, the ambassador gave a speech.",subordination_src-src,sub_matrix,no-sub_matrix,17,343
+"Because the students who were in the teacher 's class did not like the material that covered the evolution of the human skeleton, they complained to the principal.","The students who were in the teacher 's class did not like the material that covered the evolution of the human skeleton, they complained to the principal.",subordination_src-src,sub_matrix,no-sub_matrix,3,344
+The students who were from foreign countries handed in their papers that were about modern art.,Before the students who were from foreign countries handed in their papers that were about modern art.,subordination_src-src,no-sub_no-matrix,sub_no-matrix,23,345
