@@ -34,7 +34,12 @@ in the root of this directory. For security reasons, **do not** commit this file
 
 ## Results and analyses
 
-All results are saved to the [`results`](results) folder, which is organized by experiment.
+The results from the paper can be accessed by extracting the [`results.zip`](results.zip) file.
+This will create a folder called `results`, which is organized by experiment:
+- `exp1_word-prediction`
+- `exp2_word-comparison`
+- `exp3a_sentence-judge`
+- `exp3b_sentence-comparison`
 
 A few notes about the results:
 - Each result file is named in the following format: `<dataset>_<model>_<eval_type>.json`.
