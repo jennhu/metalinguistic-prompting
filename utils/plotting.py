@@ -50,7 +50,6 @@ def pretty_evaltype(eval_type):
 # Hue corresponds to model family; lightness corresponds to size.
 blues = sns.color_palette("Blues")
 reds = sns.color_palette("Reds")
-
 MODEL_PAL = {
     "Flan-T5 SM": blues[0],
     "Flan-T5 LG": blues[2],
@@ -60,16 +59,18 @@ MODEL_PAL = {
     "text-davinci-003": reds[4]
 }
 
-pal = sns.color_palette("Set2")
+pal = sns.cubehelix_palette(rot=0.5, as_cmap=True)
 EVAL_TYPE_PAL = {
-    "Direct": pal[0],
-    "MetaQuestionSimple": pal[1],
-    "MetaInstruct": pal[2],
-    "MetaQuestionComplex": pal[3]
+    "Direct": sns.cubehelix_palette()[5], # make Direct color stand out visually
+    "MetaQuestionSimple": pal(0.5),
+    "MetaInstruct": pal(0.3),
+    "MetaQuestionComplex": pal(0.07)
 }
 
 # Consistent styling for error bars.
 BAR_STYLE = dict(capsize=0.05, errwidth=1) # lw=0.5)
+
+BARPLOT_SIZE = (8, 4)
 
 # =============================================================================
 # HELPER FUNCTIONS
