@@ -2,13 +2,17 @@
 
 This repository contains materials for the paper
 "Prompt-based methods may underestimate large language models' linguistic generalizations" 
-(Hu & Levy, 2023). If you find the code or data useful in your research, please use the following citation:
+(Hu & Levy, 2023). The preprint is available on both [arXiv](https://arxiv.org/abs/2305.13264)
+and [LingBuzz](https://lingbuzz.net/lingbuzz/007313).
+
+If you find the code or data useful in your research, please use the following citation:
 
 ```
 @document{hu_prompt-based_2023,
-	title = {Prompt-based methods may underestimate large language models' linguistic generalizations},
-	author = {Hu, Jennifer and Levy, Roger},
-	year = {2023},
+    title = {Prompt-based methods may underestimate large language models' linguistic generalizations},
+    author = {Hu, Jennifer and Levy, Roger},
+    year = {2023},
+    url = {https://lingbuzz.net/lingbuzz/007313}
 }
 ```
 
