@@ -1,0 +1,536 @@
+good_sentence,bad_sentence,suite,suite_broad,wang2021_id,item_id
+我 很 喜欢 一 位 国内 的 明星 。,我 很 喜欢 一 首 国内 的 明星 。,cls_adj,Classifier,1,1
+我 很 喜欢 一 首 国内 的 歌曲 。,我 很 喜欢 一 位 国内 的 歌曲 。,cls_adj,Classifier,1,2
+她 开车 去 了 一 家 郊外 的 店 。,她 开车 去 了 一 座 郊外 的 店 。,cls_adj,Classifier,2,3
+她 开车 去 了 一 座 郊外 的 山 。,她 开车 去 了 一 家 郊外 的 山 。,cls_adj,Classifier,2,4
+他 有 一 双 蓝色 的 手套 。,他 有 一 枚 蓝色 的 手套 。,cls_adj,Classifier,3,5
+他 有 一 枚 蓝色 的 纽扣 。,他 有 一 双 蓝色 的 纽扣 。,cls_adj,Classifier,3,6
+店长 拿 着 一 只 便宜 的 兔子 。,店长 拿 着 一 根 便宜 的 兔子 。,cls_adj,Classifier,4,7
+店长 拿 着 一 根 便宜 的 萝卜 。,店长 拿 着 一 只 便宜 的 萝卜 。,cls_adj,Classifier,4,8
+她 提到 了 一 座 巨大 的 城堡 。,她 提到 了 一 面 巨大 的 城堡 。,cls_adj,Classifier,5,9
+她 提到 了 一 面 巨大 的 城墙 。,她 提到 了 一 座 巨大 的 城墙 。,cls_adj,Classifier,5,10
+他 认识 了 一 名 幸运 的 男孩 。,他 认识 了 一 本 幸运 的 男孩 。,cls_adj,Classifier,6,11
+他 认识 了 一 本 幸运 的 小说 。,他 认识 了 一 名 幸运 的 小说 。,cls_adj,Classifier,6,12
+男人 在 扫描 一 篇 很 短 的 文章 。,男人 在 扫描 一 张 很 短 的 文章 。,cls_adj,Classifier,7,13
+男人 在 扫描 一 张 很 短 的 图片 。,男人 在 扫描 一 篇 很 短 的 图片 。,cls_adj,Classifier,7,14
+演员 在 看 一 张 干净 的 旧 照片 。,演员 在 看 一 位 干净 的 旧 照片 。,cls_adj,Classifier,8,15
+演员 在 看 一 位 干净 的 老师 。,演员 在 看 一 张 干净 的 老师 。,cls_adj,Classifier,8,16
+他 在 修理 一 辆 倒霉 的 汽车 。,他 在 修理 一 套 倒霉 的 汽车 。,cls_adj,Classifier,9,17
+他 在 修理 一 套 倒霉 的 系统 。,他 在 修理 一 辆 倒霉 的 系统 。,cls_adj,Classifier,9,18
+学生 们 在 写 一 部 精彩 的 电影 。,学生 们 在 写 一 首 精彩 的 电影 。,cls_adj,Classifier,10,19
+学生 们 在 写 一 首 精彩 的 戏曲 。,学生 们 在 写 一 部 精彩 的 戏曲 。,cls_adj,Classifier,10,20
+我们 在 看 一 场 神奇 的 他 的 表演 。,我们 在 看 一 块 神奇 的 他 的 表演 。,cls_adj,Classifier,11,21
+我们 在 看 一 块 神奇 的 他 的 场地 。,我们 在 看 一 场 神奇 的 他 的 场地 。,cls_adj,Classifier,11,22
+他 最 喜欢 一 道 美味 的 菜 。,他 最 喜欢 一 瓶 美味 的 菜 。,cls_adj,Classifier,12,23
+他 最 喜欢 一 瓶 美味 的 醋 。,他 最 喜欢 一 道 美味 的 醋 。,cls_adj,Classifier,12,24
+她 拿 了 一 份 今天 的 饭 。,她 拿 了 一 卷 今天 的 饭 。,cls_adj,Classifier,13,25
+她 拿 了 一 卷 今天 的 纸 。,她 拿 了 一 份 今天 的 纸 。,cls_adj,Classifier,13,26
+学生 们 在 写 一 部 复杂 的 戏剧 。,学生 们 在 写 一 篇 复杂 的 戏剧 。,cls_adj,Classifier,14,27
+学生 们 在 写 一 篇 复杂 的 文章 。,学生 们 在 写 一 部 复杂 的 文章 。,cls_adj,Classifier,14,28
+这 是 一 架 红色 的 火车 。,这 是 一 扇 红色 的 火车 。,cls_adj,Classifier,15,29
+这 是 一 扇 红色 的 窗户 。,这 是 一 架 红色 的 窗户 。,cls_adj,Classifier,15,30
+老师 在 责备 三 名 淘气 的 学生 。,老师 在 责备 三 只 淘气 的 学生 。,cls_adj,Classifier,16,31
+老师 在 责备 三 只 淘气 的 宠物 。,老师 在 责备 三 名 淘气 的 宠物 。,cls_adj,Classifier,16,32
+她 买 过 两 杯 热 的 咖啡 。,她 买 过 两 个 热 的 咖啡 。,cls_adj,Classifier,17,33
+她 买 过 两 个 热 的 杯子 。,她 买 过 两 杯 热 的 杯子 。,cls_adj,Classifier,17,34
+孩子 在 卖 五 台 限量 的 桌子 。,孩子 在 卖 五 块 限量 的 桌子 。,cls_adj,Classifier,18,35
+孩子 在 卖 五 块 限量 的 蛋糕 。,孩子 在 卖 五 台 限量 的 蛋糕 。,cls_adj,Classifier,18,36
+妈妈 在 做 一 张 好看 的 地图 。,妈妈 在 做 一 面 好看 的 地图 。,cls_adj,Classifier,19,37
+妈妈 在 做 一 面 好看 的 镜子 。,妈妈 在 做 一 张 好看 的 镜子 。,cls_adj,Classifier,19,38
+爸爸 买 了 一 栋 很大 的 房子 。,爸爸 买 了 一 条 很大 的 房子 。,cls_adj,Classifier,20,39
+爸爸 买 了 一 条 很大 的 沙发 。,爸爸 买 了 一 栋 很大 的 沙发 。,cls_adj,Classifier,20,40
+我 想 种 一 朵 红色 的 玫瑰 。,我 想 种 一 颗 红色 的 玫瑰 。,cls_adj,Classifier,21,41
+我 想 种 一 颗 红色 的 种子 。,我 想 种 一 朵 红色 的 种子 。,cls_adj,Classifier,21,42
+我 经常 去 一 家 有名 的 医院 。,我 经常 去 一 座 有名 的 医院 。,cls_adj,Classifier,22,43
+我 经常 去 一 座 有名 的 城市 。,我 经常 去 一 家 有名 的 城市 。,cls_adj,Classifier,22,44
+他 买 了 一 道 昂贵 的 五彩 的 沙拉 。,他 买 了 一 处 昂贵 的 五彩 的 沙拉 。,cls_adj,Classifier,23,45
+他 买 了 一 处 昂贵 的 五彩 的 仓库 。,他 买 了 一 道 昂贵 的 五彩 的 仓库 。,cls_adj,Classifier,23,46
+我 拜访 了 这 一 所 重要 的 美丽 的 高中 。,我 拜访 了 这 一 位 重要 的 美丽 的 高中 。,cls_adj,Classifier,24,47
+我 拜访 了 这 一 位 重要 的 美丽 的 老师 。,我 拜访 了 这 一 所 重要 的 美丽 的 老师 。,cls_adj,Classifier,24,48
+他 在 读 一 条 很 长 的 评论 。,他 在 读 一 首 很 长 的 评论 。,cls_adj,Classifier,25,49
+他 在 读 一 首 很 长 的 诗歌 。,他 在 读 一 条 很 长 的 诗歌 。,cls_adj,Classifier,25,50
+她 从来 没 见 过 一 头 黄色 的 老虎 。,她 从来 没 见 过 一 双 黄色 的 老虎 。,cls_adj,Classifier,26,51
+她 从来 没 见 过 一 双 黄色 的 眼睛 。,她 从来 没 见 过 一 头 黄色 的 眼睛 。,cls_adj,Classifier,26,52
+我 还 没有 检查 一 份 很 难 的 作业 。,我 还 没有 检查 一 行 很 难 的 作业 。,cls_adj,Classifier,27,53
+我 还 没有 检查 一 行 很 难 的 公式 。,我 还 没有 检查 一 份 很 难 的 公式 。,cls_adj,Classifier,27,54
+孩子 听到 了 一 首 熟悉 的 歌谣 。,孩子 听到 了 一 张 熟悉 的 歌谣 。,cls_adj,Classifier,28,55
+孩子 听到 了 一 张 熟悉 的 专辑 。,孩子 听到 了 一 首 熟悉 的 专辑 。,cls_adj,Classifier,28,56
+护士 做 了 一 次 必需 的 检查 。,护士 做 了 一 篇 必需 的 检查 。,cls_adj,Classifier,29,57
+护士 做 了 一 篇 必需 的 报告 。,护士 做 了 一 次 必需 的 报告 。,cls_adj,Classifier,29,58
+这里 是 两 台 最新 的 电视 。,这里 是 两 份 最新 的 电视 。,cls_adj,Classifier,30,59
+这里 是 两 份 最新 的 订单 。,这里 是 两 台 最新 的 订单 。,cls_adj,Classifier,30,60
+我 记得 一 棵 绿色 的 松树 。,我 记得 一 片 绿色 的 松树 。,cls_adj,Classifier,31,61
+我 记得 一 片 绿色 的 叶子 。,我 记得 一 棵 绿色 的 叶子 。,cls_adj,Classifier,31,62
+他 很 欣赏 一 处 环保 的 景点 。,他 很 欣赏 一 位 环保 的 景点 。,cls_adj,Classifier,32,63
+他 很 欣赏 一 位 环保 的 领导 。,他 很 欣赏 一 处 环保 的 领导 。,cls_adj,Classifier,32,64
+那里 有 一 支 海上 的 舰队 。,那里 有 一 艘 海上 的 舰队 。,cls_adj,Classifier,33,65
+那里 有 一 艘 海上 的 渔船 。,那里 有 一 支 海上 的 渔船 。,cls_adj,Classifier,33,66
+我 很 喜欢 一 位 明星 。,我 很 喜欢 一 首 明星 。,cls_none,Classifier,1,67
+我 很 喜欢 一 首 歌曲 。,我 很 喜欢 一 位 歌曲 。,cls_none,Classifier,1,68
+她 开车 去 了 一 家 店 。,她 开车 去 了 一 座 店 。,cls_none,Classifier,2,69
+她 开车 去 了 一 座 山 。,她 开车 去 了 一 家 山 。,cls_none,Classifier,2,70
+他 有 一 双 手套 。,他 有 一 枚 手套 。,cls_none,Classifier,3,71
+他 有 一 枚 纽扣 。,他 有 一 双 纽扣 。,cls_none,Classifier,3,72
+店长 拿 着 一 只 兔子 。,店长 拿 着 一 根 兔子 。,cls_none,Classifier,4,73
+店长 拿 着 一 根 萝卜 。,店长 拿 着 一 只 萝卜 。,cls_none,Classifier,4,74
+她 提到 了 一 座 城堡 。,她 提到 了 一 面 城堡 。,cls_none,Classifier,5,75
+她 提到 了 一 面 城墙 。,她 提到 了 一 座 城墙 。,cls_none,Classifier,5,76
+他 认识 了 一 名 男孩 。,他 认识 了 一 本 男孩 。,cls_none,Classifier,6,77
+他 认识 了 一 本 小说 。,他 认识 了 一 名 小说 。,cls_none,Classifier,6,78
+男人 在 扫描 一 篇 文章 。,男人 在 扫描 一 张 文章 。,cls_none,Classifier,7,79
+男人 在 扫描 一 张 图片 。,男人 在 扫描 一 篇 图片 。,cls_none,Classifier,7,80
+演员 在 看 一 张 照片 。,演员 在 看 一 位 照片 。,cls_none,Classifier,8,81
+演员 在 看 一 位 老师 。,演员 在 看 一 张 老师 。,cls_none,Classifier,8,82
+他 在 修理 一 辆 汽车 。,他 在 修理 一 套 汽车 。,cls_none,Classifier,9,83
+他 在 修理 一 套 系统 。,他 在 修理 一 辆 系统 。,cls_none,Classifier,9,84
+学生 们 在 写 一 部 电影 。,学生 们 在 写 一 首 电影 。,cls_none,Classifier,10,85
+学生 们 在 写 一 首 戏曲 。,学生 们 在 写 一 部 戏曲 。,cls_none,Classifier,10,86
+我们 在 看 一 场 表演 。,我们 在 看 一 块 表演 。,cls_none,Classifier,11,87
+我们 在 看 一 块 场地 。,我们 在 看 一 场 场地 。,cls_none,Classifier,11,88
+他 最 喜欢 一 道 菜 。,他 最 喜欢 一 瓶 菜 。,cls_none,Classifier,12,89
+他 最 喜欢 一 瓶 醋 。,他 最 喜欢 一 道 醋 。,cls_none,Classifier,12,90
+她 拿 了 一 份 饭 。,她 拿 了 一 卷 饭 。,cls_none,Classifier,13,91
+她 拿 了 一 卷 纸 。,她 拿 了 一 份 纸 。,cls_none,Classifier,13,92
+学生 们 在 写 一 部 戏剧 。,学生 们 在 写 一 篇 戏剧 。,cls_none,Classifier,14,93
+学生 们 在 写 一 篇 文章 。,学生 们 在 写 一 部 文章 。,cls_none,Classifier,14,94
+这 是 一 辆 火车 。,这 是 一 扇 火车 。,cls_none,Classifier,15,95
+这 是 一 扇 窗户 。,这 是 一 辆 窗户 。,cls_none,Classifier,15,96
+老师 在 责备 三 名 学生 。,老师 在 责备 三 只 学生 。,cls_none,Classifier,16,97
+老师 在 责备 三 只 宠物 。,老师 在 责备 三 名 宠物 。,cls_none,Classifier,16,98
+她 买 过 两 杯 咖啡 。,她 买 过 两 个 咖啡 。,cls_none,Classifier,17,99
+她 买 过 两 个 杯子 。,她 买 过 两 杯 杯子 。,cls_none,Classifier,17,100
+孩子 在 卖 五 台 桌子 。,孩子 在 卖 五 块 桌子 。,cls_none,Classifier,18,101
+孩子 在 卖 五 块 蛋糕 。,孩子 在 卖 五 台 蛋糕 。,cls_none,Classifier,18,102
+妈妈 在 做 一 张 地图 。,妈妈 在 做 一 面 地图 。,cls_none,Classifier,19,103
+妈妈 在 做 一 面 镜子 。,妈妈 在 做 一 张 镜子 。,cls_none,Classifier,19,104
+爸爸 买 了 一 栋 房子 。,爸爸 买 了 一 条 房子 。,cls_none,Classifier,20,105
+爸爸 买 了 一 条 沙发 。,爸爸 买 了 一 栋 沙发 。,cls_none,Classifier,20,106
+我 想 种 一 朵 玫瑰 。,我 想 种 一 颗 玫瑰 。,cls_none,Classifier,21,107
+我 想 种 一 颗 种子 。,我 想 种 一 朵 种子 。,cls_none,Classifier,21,108
+我 经常 去 一 家 医院 。,我 经常 去 一 座 医院 。,cls_none,Classifier,22,109
+我 经常 去 一 座 城市 。,我 经常 去 一 家 城市 。,cls_none,Classifier,22,110
+他 买 了 一 道 沙拉 。,他 买 了 一 处 沙拉 。,cls_none,Classifier,23,111
+他 买 了 一 处 仓库 。,他 买 了 一 道 仓库 。,cls_none,Classifier,23,112
+我 拜访 了 这 一 所 高中 。,我 拜访 了 这 一 位 高中 。,cls_none,Classifier,24,113
+我 拜访 了 这 一 位 老师 。,我 拜访 了 这 一 所 老师 。,cls_none,Classifier,24,114
+他 在 读 一 条 评论 。,他 在 读 一 首 评论 。,cls_none,Classifier,25,115
+他 在 读 一 首 诗歌 。,他 在 读 一 条 诗歌 。,cls_none,Classifier,25,116
+她 从来 没 见 过 一 头 老虎 。,她 从来 没 见 过 一 双 老虎 。,cls_none,Classifier,26,117
+她 从来 没 见 过 一 双 眼睛 。,她 从来 没 见 过 一 头 眼睛 。,cls_none,Classifier,26,118
+我 还 没有 检查 一 份 作业 。,我 还 没有 检查 一 行 作业 。,cls_none,Classifier,27,119
+我 还 没有 检查 一 行 公式 。,我 还 没有 检查 一 份 公式 。,cls_none,Classifier,27,120
+孩子 听到 了 一 首 歌谣 。,孩子 听到 了 一 张 歌谣 。,cls_none,Classifier,28,121
+孩子 听到 了 一 张 专辑 。,孩子 听到 了 一 首 专辑 。,cls_none,Classifier,28,122
+护士 做 了 一 次 检查 。,护士 做 了 一 篇 检查 。,cls_none,Classifier,29,123
+护士 做 了 一 篇 报告 。,护士 做 了 一 次 报告 。,cls_none,Classifier,29,124
+这里 是 两 台 电视 。,这里 是 两 份 电视 。,cls_none,Classifier,30,125
+这里 是 两 份 订单 。,这里 是 两 台 订单 。,cls_none,Classifier,30,126
+我 记得 一 棵 松树 。,我 记得 一 片 松树 。,cls_none,Classifier,31,127
+我 记得 一 片 叶子 。,我 记得 一 棵 叶子 。,cls_none,Classifier,31,128
+他 很 欣赏 一 处 景点 。,他 很 欣赏 一 位 景点 。,cls_none,Classifier,32,129
+他 很 欣赏 一 位 领导 。,他 很 欣赏 一 处 领导 。,cls_none,Classifier,32,130
+那里 有 一 支 舰队 。,那里 有 一 艘 舰队 。,cls_none,Classifier,33,131
+那里 有 一 艘 渔船 。,那里 有 一 支 渔船 。,cls_none,Classifier,33,132
+我 很 喜欢 一 位 朋友 提到 的 明星 。,我 很 喜欢 一 首 朋友 提到 的 明星 。,cls_obj,Classifier,1,133
+我 很 喜欢 一 首 朋友 提到 的 歌曲 。,我 很 喜欢 一 位 朋友 提到 的 歌曲 。,cls_obj,Classifier,1,134
+她 开车 去 了 一 家 我 推荐 过 的 店 。,她 开车 去 了 一 座 我 推荐 过 的 店 。,cls_obj,Classifier,2,135
+她 开车 去 了 一 座 我 推荐 过 的 山 。,她 开车 去 了 一 家 我 推荐 过 的 山 。,cls_obj,Classifier,2,136
+他 有 一 双 我 穿 坏 了 的 手套 。,他 有 一 枚 我 穿 坏 了 的 手套 。,cls_obj,Classifier,3,137
+他 有 一 枚 我 穿 坏 了 的 纽扣 。,他 有 一 双 我 穿 坏 了 的 纽扣 。,cls_obj,Classifier,3,138
+店长 拿 着 一 只 他 买 的 兔子 。,店长 拿 着 一 根 他 买 的 兔子 。,cls_obj,Classifier,4,139
+店长 拿 着 一 根 他 买 的 萝卜 。,店长 拿 着 一 只 他 买 的 萝卜 。,cls_obj,Classifier,4,140
+她 提到 了 一 座 我们 想 拜访 的 城堡 。,她 提到 了 一 面 我们 想 拜访 的 城堡 。,cls_obj,Classifier,5,141
+她 提到 了 一 面 我们 想 拜访 的 城墙 。,她 提到 了 一 座 我们 想 拜访 的 城墙 。,cls_obj,Classifier,5,142
+他 认识 了 一 名 老师 描写 过 的 男孩 。,他 认识 了 一 本 老师 描写 过 的 男孩 。,cls_obj,Classifier,6,143
+他 认识 了 一 本 老师 描写 过 的 小说 。,他 认识 了 一 名 老师 描写 过 的 小说 。,cls_obj,Classifier,6,144
+男人 在 扫描 一 篇 今早 我 发 的 文章 。,男人 在 扫描 一 张 今早 我 发 的 文章 。,cls_obj,Classifier,7,145
+男人 在 扫描 一 张 今早 我 发 的 图片 。,男人 在 扫描 一 篇 今早 我 发 的 图片 。,cls_obj,Classifier,7,146
+演员 在 看 一 张 她 以前 拍 的 照片 。,演员 在 看 一 位 她 以前 拍 的 照片 。,cls_obj,Classifier,8,147
+演员 在 看 一 位 她 以前 拍 的 老师 。,演员 在 看 一 张 她 以前 拍 的 老师 。,cls_obj,Classifier,8,148
+他 在 修理 一 辆 我 使用 过 的 汽车 。,他 在 修理 一 套 我 使用 过 的 汽车 。,cls_obj,Classifier,9,149
+他 在 修理 一 套 我 使用 过 的 系统 。,他 在 修理 一 辆 我 使用 过 的 系统 。,cls_obj,Classifier,9,150
+学生 们 在 写 一 部 他 要 评价 的 电影 。,学生 们 在 写 一 首 他 要 评价 的 电影 。,cls_obj,Classifier,10,151
+学生 们 在 写 一 首 他 要 评价 的 戏曲 。,学生 们 在 写 一 部 他 要 评价 的 戏曲 。,cls_obj,Classifier,10,152
+我们 在 看 一 场 很多 人 看 的 表演 。,我们 在 看 一 块 很多 人 看 的 表演 。,cls_obj,Classifier,11,153
+我们 在 看 一 块 很多 人 看 的 场地 。,我们 在 看 一 场 很多 人 看 的 场地 。,cls_obj,Classifier,11,154
+他 最 喜欢 一 道 妈妈 做 的 菜 。,他 最 喜欢 一 瓶 妈妈 做 的 菜 。,cls_obj,Classifier,12,155
+他 最 喜欢 一 瓶 妈妈 做 的 醋 。,他 最 喜欢 一 道 妈妈 做 的 醋 。,cls_obj,Classifier,12,156
+她 拿 了 一 份 她 准备 的 饭 。,她 拿 了 一 卷 她 准备 的 饭 。,cls_obj,Classifier,13,157
+她 拿 了 一 卷 她 准备 的 纸 。,她 拿 了 一 份 她 准备 的 纸 。,cls_obj,Classifier,13,158
+学生 们 在读 一 部 老师 写 的 戏剧 。,学生 们 在读 一 篇 老师 写 的 戏剧 。,cls_obj,Classifier,14,159
+学生 们 在读 一 篇 老师 写 的 文章 。,学生 们 在读 一 部 老师 写 的 文章 。,cls_obj,Classifier,14,160
+这 是 一 辆 她 设计 的 火车 。,这 是 一 扇 她 设计 的 火车 。,cls_obj,Classifier,15,161
+这 是 一 扇 她 设计 的 窗户 。,这 是 一 辆 她 设计 的 窗户 。,cls_obj,Classifier,15,162
+老师 在 责备 三 名 他 责备 过 的 学生 。,老师 在 责备 三 只 他 责备 过 的 学生 。,cls_obj,Classifier,16,163
+老师 在 责备 三 只 他 责备 过 的 宠物 。,老师 在 责备 三 名 他 责备 过 的 宠物 。,cls_obj,Classifier,16,164
+她 买 过 两 杯 我 想要 的 咖啡 。,她 买 过 两 个 我 想要 的 咖啡 。,cls_obj,Classifier,17,165
+她 买 过 两 个 我 想要 的 杯子 。,她 买 过 两 杯 我 想要 的 杯子 。,cls_obj,Classifier,17,166
+孩子 在 卖 五 台 他 买 的 桌子 。,孩子 在 卖 五 块 他 买 的 桌子 。,cls_obj,Classifier,18,167
+孩子 在 卖 五 块 他 买 的 蛋糕 。,孩子 在 卖 五 台 他 买 的 蛋糕 。,cls_obj,Classifier,18,168
+妈妈 在 做 一 张 我 正在 用 的 地图 。,妈妈 在 做 一 面 我 正在 用 的 地图 。,cls_obj,Classifier,19,169
+妈妈 在 做 一 面 我 正在 用 的 镜子 。,妈妈 在 做 一 张 我 正在 用 的 镜子 。,cls_obj,Classifier,19,170
+爸爸 买 了 一 栋 他 听说 过 的 房子 。,爸爸 买 了 一 条 他 听说 过 的 房子 。,cls_obj,Classifier,20,171
+爸爸 买 了 一 条 他 听说 过 的 沙发 。,爸爸 买 了 一 栋 他 听说 过 的 沙发 。,cls_obj,Classifier,20,172
+我 想 种 一 朵 她 研究 过 的 玫瑰 。,我 想 种 一 颗 她 研究 过 的 玫瑰 。,cls_obj,Classifier,21,173
+我 想 种 一 颗 她 研究 过 的 种子 。,我 想 种 一 朵 她 研究 过 的 种子 。,cls_obj,Classifier,21,174
+我 经常 去 一 家 他 去年 去 过 的 医院 。,我 经常 去 一 座 他 去年 去 过 的 医院 。,cls_obj,Classifier,22,175
+我 经常 去 一 座 他 去年 去 过 的 城市 。,我 经常 去 一 家 他 去年 去 过 的 城市 。,cls_obj,Classifier,22,176
+他 买 了 一 道 邻居 正在 描述 的 沙拉 。,他 买 了 一 处 邻居 正在 描述 的 沙拉 。,cls_obj,Classifier,23,177
+他 买 了 一 处 邻居 正在 描述 的 仓库 。,他 买 了 一 道 邻居 正在 描述 的 仓库 。,cls_obj,Classifier,23,178
+我 拜访 了 这 一 所 我 怀念 的 高中 。,我 拜访 了 这 一 位 我 怀念 的 高中 。,cls_obj,Classifier,24,179
+我 拜访 了 这 一 位 我 怀念 的 老师 。,我 拜访 了 这 一 所 我 怀念 的 老师 。,cls_obj,Classifier,24,180
+他 在 读 一 条 网友 写 的 评论 。,他 在 读 一 首 网友 写 的 评论 。,cls_obj,Classifier,25,181
+他 在 读 一 首 网友 写 的 诗歌 。,他 在 读 一 条 网友 写 的 诗歌 。,cls_obj,Classifier,25,182
+她 从来 没 见 过 一 头 他 画 的 老虎 。,她 从来 没 见 过 一 双 他 画 的 老虎 。,cls_obj,Classifier,26,183
+她 从来 没 见 过 一 双 他 画 的 眼睛 。,她 从来 没 见 过 一 头 他 画 的 眼睛 。,cls_obj,Classifier,26,184
+我 还 没有 检查 一 份 他 刚刚 在 看 的 作业 。,我 还 没有 检查 一 行 他 刚刚 在 看 的 作业 。,cls_obj,Classifier,27,185
+我 还 没有 检查 一 行 他 刚刚 在 看 的 公式 。,我 还 没有 检查 一 份 他 刚刚 在 看 的 公式 。,cls_obj,Classifier,27,186
+孩子 听到 了 一 首 他 熟悉 的 歌谣 。,孩子 听到 了 一 张 他 熟悉 的 歌谣 。,cls_obj,Classifier,28,187
+孩子 听到 了 一 张 他 熟悉 的 专辑 。,孩子 听到 了 一 首 他 熟悉 的 专辑 。,cls_obj,Classifier,28,188
+护士 做 了 一 次 她 需要 做 的 检查 。,护士 做 了 一 篇 她 需要 做 的 检查 。,cls_obj,Classifier,29,189
+护士 做 了 一 篇 她 需要 做 的 报告 。,护士 做 了 一 次 她 需要 做 的 报告 。,cls_obj,Classifier,29,190
+这里 是 两 台 厂家 刚 接到 的 电视 。,这里 是 两 份 厂家 刚 接到 的 电视 。,cls_obj,Classifier,30,191
+这里 是 两 份 厂家 刚 接到 的 订单 。,这里 是 两 台 厂家 刚 接到 的 订单 。,cls_obj,Classifier,30,192
+我 记得 一 棵 他 种 的 松树 。,我 记得 一 片 他 种 的 松树 。,cls_obj,Classifier,31,193
+我 记得 一 片 他 种 的 叶子 。,我 记得 一 棵 他 种 的 叶子 。,cls_obj,Classifier,31,194
+他 很 欣赏 一 处 他 今天 见到 的 景点 。,他 很 欣赏 一 位 他 今天 见到 的 景点 。,cls_obj,Classifier,32,195
+他 很 欣赏 一 位 他 今天 见到 的 领导 。,他 很 欣赏 一 处 他 今天 见到 的 领导 。,cls_obj,Classifier,32,196
+那里 有 一 支 司令 安排 的 舰队 。,那里 有 一 艘 司令 安排 的 舰队 。,cls_obj,Classifier,33,197
+那里 有 一 艘 司令 安排 的 渔船 。,那里 有 一 支 司令 安排 的 渔船 。,cls_obj,Classifier,33,198
+我 很 喜欢 一 位 唱歌 好听 的 明星 。,我 很 喜欢 一 首 唱歌 好听 的 明星 。,cls_sub,Classifier,1,199
+我 很 喜欢 一 首 令人 流泪 的 歌曲 。,我 很 喜欢 一 位 令人 流泪 的 歌曲 。,cls_sub,Classifier,1,200
+她 开车 去 了 一 家 受 大家 欢迎 的 店 。,她 开车 去 了 一 座 受 大家 欢迎 的 店 。,cls_sub,Classifier,2,201
+她 开车 去 了 一 座 受 大家 欢迎 的 山 。,她 开车 去 了 一 家 受 大家 欢迎 的 山 。,cls_sub,Classifier,2,202
+他 有 一 双 被 我 丢 了 的 手套 。,他 有 一 枚 被 我 丢 了 的 手套 。,cls_sub,Classifier,3,203
+他 有 一 枚 被 我 丢 了 的 纽扣 。,他 有 一 双 被 我 丢 了 的 纽扣 。,cls_sub,Classifier,3,204
+店长 拿 着 一 只 已经 成熟 了 的 兔子 。,店长 拿 着 一 根 已经 成熟 了 的 兔子 。,cls_sub,Classifier,4,205
+店长 拿 着 一 根 已经 成熟 了 的 萝卜 。,店长 拿 着 一 只 已经 成熟 了 的 萝卜 。,cls_sub,Classifier,4,206
+她 提到 了 一 座 刚 被 修好 的 城堡 。,她 提到 了 一 面 刚 被 修好 的 城堡 。,cls_sub,Classifier,5,207
+她 提到 了 一 面 刚 被 修好 的 城墙 。,她 提到 了 一 座 刚 被 修好 的 城墙 。,cls_sub,Classifier,5,208
+他 认识 了 一 名 会 讲 故事 的 男孩 。,他 认识 了 一 本 会 讲 故事 的 男孩 。,cls_sub,Classifier,6,209
+他 认识 了 一 本 会 讲 故事 的 小说 。,他 认识 了 一 名 会 讲 故事 的 小说 。,cls_sub,Classifier,6,210
+男人 在 扫描 一 篇 今早 登报 了 的 文章 。,男人 在 扫描 一 张 今早 登报 了 的 文章 。,cls_sub,Classifier,7,211
+男人 在 扫描 一 张 今早 登报 了 的 图片 。,男人 在 扫描 一 篇 今早 登报 了 的 图片 。,cls_sub,Classifier,7,212
+演员 在 看 一 张 唤起 她 回忆 的 旧 照片 。,演员 在 看 一 位 唤起 她 回忆 的 旧 照片 。,cls_sub,Classifier,8,213
+演员 在 看 一 位 唤起 她 回忆 的 老师 。,演员 在 看 一 张 唤起 她 回忆 的 老师 。,cls_sub,Classifier,8,214
+他 在 修理 一 辆 无法 启动 的 汽车 。,他 在 修理 一 套 无法 启动 的 汽车 。,cls_sub,Classifier,9,215
+他 在 修理 一 套 无法 启动 的 系统 。,他 在 修理 一 辆 无法 启动 的 系统 。,cls_sub,Classifier,9,216
+学生 们 在 写 一 部 长 一个 小时 的 电影 。,学生 们 在 写 一 首 长 一个 小时 的 电影 。,cls_sub,Classifier,10,217
+学生 们 在 写 一 首 长 一个 小时 的 戏曲 。,学生 们 在 写 一 部 长 一个 小时 的 戏曲 。,cls_sub,Classifier,10,218
+我们 在 看 一 场 吸引 了 很多 观众 的 表演 。,我们 在 看 一 块 吸引 了 很多 观众 的 表演 。,cls_sub,Classifier,11,219
+我们 在 看 一 块 吸引 了 很多 观众 的 场地 。,我们 在 看 一 场 吸引 了 很多 观众 的 场地 。,cls_sub,Classifier,11,220
+他 最 喜欢 一 道 让 人 想念 的 菜 。,他 最 喜欢 一 瓶 让 人 想念 的 菜 。,cls_sub,Classifier,12,221
+他 最 喜欢 一 瓶 让 人 想念 的 醋 。,他 最 喜欢 一 道 让 人 想念 的 醋 。,cls_sub,Classifier,12,222
+她 拿 了 一 份 被 提供 给 客人 的 饭 。,她 拿 了 一 卷 被 提供 给 客人 的 饭 。,cls_sub,Classifier,13,223
+她 拿 了 一 卷 被 提供 给 客人 的 纸 。,她 拿 了 一 份 被 提供 给 客人 的 纸 。,cls_sub,Classifier,13,224
+学生 们 在 写 一 部 令人 感动 的 戏剧 。,学生 们 在 写 一 篇 令人 感动 的 戏剧 。,cls_sub,Classifier,14,225
+学生 们 在 写 一 篇 令人 感动 的 文章 。,学生 们 在 写 一 部 令人 感动 的 文章 。,cls_sub,Classifier,14,226
+这 是 一 辆 有 历史 的 火车 。,这 是 一 扇 有 历史 的 火车 。,cls_sub,Classifier,15,227
+这 是 一 扇 有 历史 的 窗户 。,这 是 一 辆 有 历史 的 窗户 。,cls_sub,Classifier,15,228
+老师 在 责备 三 名 不 睡觉 的 学生 。,老师 在 责备 三 只 不 睡觉 的 学生 。,cls_sub,Classifier,16,229
+老师 在 责备 三 只 不 睡觉 的 宠物 。,老师 在 责备 三 名 不 睡觉 的 宠物 。,cls_sub,Classifier,16,230
+她 买 过 两 杯 正在 打折 的 咖啡 。,她 买 过 两 个 正在 打折 的 咖啡 。,cls_sub,Classifier,17,231
+她 买 过 两 个 正在 打折 的 杯子 。,她 买 过 两 杯 正在 打折 的 杯子 。,cls_sub,Classifier,17,232
+孩子 在 卖 五 台 有 花纹 的 桌子 。,孩子 在 卖 五 块 有 花纹 的 桌子 。,cls_sub,Classifier,18,233
+孩子 在 卖 五 块 有 花纹 的 蛋糕 。,孩子 在 卖 五 台 有 花纹 的 蛋糕 。,cls_sub,Classifier,18,234
+妈妈 在 做 一 张 代表 幸运 的 地图 。,妈妈 在 做 一 面 代表 幸运 的 地图 。,cls_sub,Classifier,19,235
+妈妈 在 做 一 面 代表 幸运 的 镜子 。,妈妈 在 做 一 张 代表 幸运 的 镜子 。,cls_sub,Classifier,19,236
+爸爸 买 了 一 栋 令人 满意 的 房子 。,爸爸 买 了 一 条 令人 满意 的 房子 。,cls_sub,Classifier,20,237
+爸爸 买 了 一 条 令人 满意 的 沙发 。,爸爸 买 了 一 栋 令人 满意 的 沙发 。,cls_sub,Classifier,20,238
+我 想 种 一 朵 能 开花 的 玫瑰 。,我 想 种 一 颗 能 开花 的 玫瑰 。,cls_sub,Classifier,21,239
+我 想 种 一 颗 能 开花 的 种子 。,我 想 种 一 朵 能 开花 的 种子 。,cls_sub,Classifier,21,240
+我 经常 去 一 家 有 雕塑 的 医院 。,我 经常 去 一 座 有 雕塑 的 医院 。,cls_sub,Classifier,22,241
+我 经常 去 一 座 有 雕塑 的 城市 。,我 经常 去 一 家 有 雕塑 的 城市 。,cls_sub,Classifier,22,242
+他 买 了 一 道 很多 水果 的 沙拉 。,他 买 了 一 处 有 很多 水果 的 沙拉 。,cls_sub,Classifier,23,243
+他 买 了 一 处 有 很多 水果 的 仓库 。,他 买 了 一 道 有 很多 水果 的 仓库 。,cls_sub,Classifier,23,244
+我 拜访 了 这 一 所 抚育 了 我 的 高中 。,我 拜访 了 这 一 位 抚育 了 我 的 高中 。,cls_sub,Classifier,24,245
+我 拜访 了 这 一 位 抚育 了 我 的 老师 。,我 拜访 了 这 一 所 抚育 了 我 的 老师 。,cls_sub,Classifier,24,246
+他 在 读 一 条 让 他 开心 的 评论 。,他 在 读 一 首 让 他 开心 的 评论 。,cls_sub,Classifier,25,247
+他 在 读 一 首 让 他 开心 的 诗歌 。,他 在 读 一 条 让 他 开心 的 诗歌 。,cls_sub,Classifier,25,248
+她 从来 没 见 过 一 头 受伤 了 的 老虎 。,她 从来 没 见 过 一 双 受伤 了 的 老虎 。,cls_sub,Classifier,26,249
+她 从来 没 见 过 一 双 受伤 了 的 眼睛 。,她 从来 没 见 过 一 头 受伤 了 的 眼睛 。,cls_sub,Classifier,26,250
+我 还 没有 检查 一 份 要 被 上交 的 作业 。,我 还 没有 检查 一 行 要 被 上交 的 作业 。,cls_sub,Classifier,27,251
+我 还 没有 检查 一 行 要 被 上交 的 公式 。,我 还 没有 检查 一 份 要 被 上交 的 公式 。,cls_sub,Classifier,27,252
+孩子 听到 了 一 首 令 他 熟悉 的 歌谣 。,孩子 听到 了 一 张 令 他 熟悉 的 歌谣 。,cls_sub,Classifier,28,253
+孩子 听到 了 一 张 令 他 熟悉 的 专辑 。,孩子 听到 了 一 首 令 他 熟悉 的 专辑 。,cls_sub,Classifier,28,254
+护士 做 了 一 次 需要 仪器 的 检查 。,护士 做 了 一 篇 需要 仪器 的 检查 。,cls_sub,Classifier,29,255
+护士 做 了 一 篇 需要 仪器 的 报告 。,护士 做 了 一 次 需要 仪器 的 报告 。,cls_sub,Classifier,29,256
+这里 是 两 台 刚 被 推出 的 电视 。,这里 是 两 份 刚 被 推出 的 电视 。,cls_sub,Classifier,30,257
+这里 是 两 份 刚 被 派发 的 订单 。,这里 是 两 台 刚 被 派发 的 订单 。,cls_sub,Classifier,30,258
+我 记得 一 棵 长 不 大 的 松树 。,我 记得 一 片 长 不 大 的 松树 。,cls_sub,Classifier,31,259
+我 记得 一 片 长 不 大 的 叶子 。,我 记得 一 棵 长 不 大 的 叶子 。,cls_sub,Classifier,31,260
+他 很 欣赏 一 处 有 名气 的 景点 。,他 很 欣赏 一 位 有 名气 的 景点 。,cls_sub,Classifier,32,261
+他 很 欣赏 一 位 有 名气 的 领导 。,他 很 欣赏 一 处 有 名气 的 领导 。,cls_sub,Classifier,32,262
+那里 有 一 支 完成 任务 了 的 舰队 。,那里 有 一 艘 完成 任务 了 的 舰队 。,cls_sub,Classifier,33,263
+那里 有 一 艘 完成 任务 了 的 渔船 。,那里 有 一 支 完成 任务 了 的 渔船 。,cls_sub,Classifier,33,264
+我很喜欢音乐。,我很喜欢。,mobj_none,Missing_Object,1,265
+她开过车。,她开过。,mobj_none,Missing_Object,2,266
+记者采访了科学家。,记者采访了。,mobj_none,Missing_Object,3,267
+店长拿着钥匙。,店长拿着。,mobj_none,Missing_Object,4,268
+他在看电视。,他在看。,mobj_none,Missing_Object,5,269
+他认识了老师。,他认识了。,mobj_none,Missing_Object,6,270
+有人在听音乐。,有人在听。,mobj_none,Missing_Object,7,271
+我在吃饭。,我在吃。,mobj_none,Missing_Object,8,272
+他在修理电脑。,他在修理。,mobj_none,Missing_Object,9,273
+学生们在写作业。,学生们在写。,mobj_none,Missing_Object,10,274
+我们买了咖啡。,我们买了。,mobj_none,Missing_Object,11,275
+他在讲课。,他在讲。,mobj_none,Missing_Object,12,276
+她要去买礼物。,她要去买。,mobj_none,Missing_Object,13,277
+学生们在读书。,学生们在读。,mobj_none,Missing_Object,14,278
+他想起了同学。,他想起了。,mobj_none,Missing_Object,15,279
+老师在责备学生。,老师在责备。,mobj_none,Missing_Object,16,280
+司机启动了车。,司机启动了。,mobj_none,Missing_Object,17,281
+妈妈在卖桌子。,妈妈在卖。,mobj_none,Missing_Object,18,282
+他在想办法。,他在想。,mobj_none,Missing_Object,19,283
+爸爸买了房子。,爸爸买了。,mobj_none,Missing_Object,20,284
+我想种花。,我想种。,mobj_none,Missing_Object,21,285
+弟弟需要钱。,弟弟需要。,mobj_none,Missing_Object,22,286
+他打了球。,他打了。,mobj_none,Missing_Object,23,287
+我拜访了邻居。,我拜访了。,mobj_none,Missing_Object,24,288
+他在画画。,他在画。,mobj_none,Missing_Object,25,289
+她没见过牛。,她没见过。,mobj_none,Missing_Object,26,290
+我还没有做检查。,我还没有做。,mobj_none,Missing_Object,27,291
+爷爷参与了战争。,爷爷参与了。,mobj_none,Missing_Object,28,292
+医生表扬了孩子。,医生表扬了。,mobj_none,Missing_Object,29,293
+这是电脑。,这是。,mobj_none,Missing_Object,30,294
+我洗了衣服。,我洗了。,mobj_none,Missing_Object,31,295
+他很欣赏作家。,他很欣赏。,mobj_none,Missing_Object,32,296
+那里有表演。,那里有。,mobj_none,Missing_Object,33,297
+他拍下了艺术品。,他拍下了。,mobj_none,Missing_Object,34,298
+她提到了女儿。,她提到了。,mobj_none,Missing_Object,35,299
+她介绍了工厂。,她介绍了。,mobj_none,Missing_Object,36,300
+我经常去医院。,我经常去。,mobj_none,Missing_Object,37,301
+奶奶会去拜访朋友。,奶奶会去拜访。,mobj_none,Missing_Object,38,302
+记者 采访 了 科学家 。,记者 采访 了 。,mobj_none,Missing_Object,1,303
+他 拿出 了 篮子 。,他 拿出 了 。,mobj_none,Missing_Object,2,304
+他 认识 了 老师 。,他 认识 了 。,mobj_none,Missing_Object,3,305
+他 拍 下 了 艺术品 。,他 拍 下 了 。,mobj_none,Missing_Object,4,306
+我们 参加 了 活动 。,我们 参加 了 。,mobj_none,Missing_Object,5,307
+他 想起 了 同学 。,他 想起 了 。,mobj_none,Missing_Object,6,308
+司机 启动 了 车 。,司机 启动 了 。,mobj_none,Missing_Object,7,309
+爸爸 买 了 房子 。,爸爸 买 了 。,mobj_none,Missing_Object,8,310
+他 损失 了 现金 。,他 损失 了 。,mobj_none,Missing_Object,9,311
+我 拜访 了 邻居 。,我 拜访 了 。,mobj_none,Missing_Object,10,312
+爷爷 中止 了 谈话 。,爷爷 中止 了 。,mobj_none,Missing_Object,11,313
+她 提到 了 女儿 。,她 提到 了 。,mobj_none,Missing_Object,12,314
+学生 们 写 着 作业 。,学生 们 写 着 。,mobj_none,Missing_Object,13,315
+医生 表扬 着 孩子 。,医生 表扬 着 。,mobj_none,Missing_Object,14,316
+她 介绍 着 工厂 。,她 介绍 着 。,mobj_none,Missing_Object,15,317
+我 洗 着 衣服 。,我 洗 着 。,mobj_none,Missing_Object,16,318
+店长 拿 着 钥匙 。,店长 拿 着 。,mobj_none,Missing_Object,17,319
+有人 听 着 音乐 。,有人 听 着 。,mobj_none,Missing_Object,18,320
+我 观察 着 街道 。,我 观察 着 。,mobj_none,Missing_Object,19,321
+学生 们 读 着 书 。,学生 们 读 着 。,mobj_none,Missing_Object,20,322
+他 放 着 风筝 。,他 放 着 。,mobj_none,Missing_Object,21,323
+老师 创办 过 学校 。,老师 创办 过 。,mobj_none,Missing_Object,22,324
+我 喜欢 过 音乐 。,我 喜欢 过 。,mobj_none,Missing_Object,23,325
+她 开 过 车 。,她 开 过 。,mobj_none,Missing_Object,24,326
+他 修理 过 电脑 。,他 修理 过 。,mobj_none,Missing_Object,25,327
+他 讲 过 课 。,他 讲 过 。,mobj_none,Missing_Object,26,328
+我 邀请 过 朋友 。,我 邀请 过 。,mobj_none,Missing_Object,27,329
+她 申请 过 奖金 。,她 申请 过 。,mobj_none,Missing_Object,28,330
+她 去 买 礼物 。,她 去 买 。,mobj_none,Missing_Object,29,331
+这 是 玩具 。,这 是 。,mobj_none,Missing_Object,30,332
+弟弟 需要 钱 。,弟弟 需要 。,mobj_none,Missing_Object,31,333
+他 很 欣赏 作家 。,他 很 欣赏 。,mobj_none,Missing_Object,32,334
+那里 有 表演 。,那里 有 。,mobj_none,Missing_Object,33,335
+我 经常 去 医院 。,我 经常 去 。,mobj_none,Missing_Object,34,336
+记者 采访 了 研发 产品 的 科学家 。,记者 采访 了 研发 产品 。,mobj_sub,Missing_Object,1,337
+他 拿出 了 有 苹果 的 篮子 。,他 拿出 了 有 苹果 。,mobj_sub,Missing_Object,2,338
+他 认识 了 写 书 的 老师 。,他 认识 了 写 书 。,mobj_sub,Missing_Object,3,339
+他 拍 下 了 获得 大奖 的 艺术品 。,他 拍 下 了 获得 大奖 。,mobj_sub,Missing_Object,4,340
+我们 参加 了 吸引 学生 的 活动 。,我们 参加 了 吸引 学生 。,mobj_sub,Missing_Object,5,341
+他 想起 了 写 过 歌 的 同学 。,他 想起 了 写 过 歌 。,mobj_sub,Missing_Object,6,342
+司机 启动 了 装有 音响 的 车 。,司机 启动 了 装有 音响 。,mobj_sub,Missing_Object,7,343
+爸爸 买 了 有 家具 的 房子 。,爸爸 买 了 有 家具 。,mobj_sub,Missing_Object,8,344
+他 损失 了 买 菜 的 现金 。,他 损失 了 买 菜 。,mobj_sub,Missing_Object,9,345
+我 拜访 了 去 过 中国 的 邻居 。,我 拜访 了 去 过 中国 。,mobj_sub,Missing_Object,10,346
+爷爷 中止 了 引发 争吵 的 谈话 。,爷爷 中止 了 引发 争吵 。,mobj_sub,Missing_Object,11,347
+她 提到 了 看 电视 的 女儿 。,她 提到 了 看 电视 。,mobj_sub,Missing_Object,12,348
+学生 们 写 着 有 题 的 作业 。,学生 们 写 着 有 题 。,mobj_sub,Missing_Object,13,349
+医生 表扬 着 帮助 老人 的 孩子 。,医生 表扬 着 帮助 老人 。,mobj_sub,Missing_Object,14,350
+她 介绍 着 生产 电视 的 工厂 。,她 介绍 着 生产 电视 。,mobj_sub,Missing_Object,15,351
+我 洗 着 陪伴 过 母亲 的 衣服 。,我 洗 着 陪伴 过 母亲 。,mobj_sub,Missing_Object,16,352
+店长 拿 着 能 打开 大门 的 钥匙 。,店长 拿 着 能 打开 大门 。,mobj_sub,Missing_Object,17,353
+有人 听 着 打扰 了 邻居 的 音乐 。,有人 听 着 打扰 了 邻居 。,mobj_sub,Missing_Object,18,354
+我 观察 着 有 商店 的 街道 。,我 观察 着 有 商店 。,mobj_sub,Missing_Object,19,355
+学生 们 读 着 会 讲 故事 的 书 。,学生 们 读 着 会 讲 故事 。,mobj_sub,Missing_Object,20,356
+他 放 着 飞翔 在 蓝天 的 风筝 。,他 放 着 飞翔 在 蓝天 。,mobj_sub,Missing_Object,21,357
+老师 创办 过 教 英语 的 学校 。,老师 创办 过 教 英语 。,mobj_sub,Missing_Object,22,358
+我 喜欢 过 给 我 信心 的 音乐 。,我 喜欢 过 给 我 信心 。,mobj_sub,Missing_Object,23,359
+她 开 过 容纳 很多 人 的 车 。,她 开 过 容纳 很多 人 。,mobj_sub,Missing_Object,24,360
+他 修理 过 丢失 了 芯片 的 电脑 。,他 修理 过 丢失 了 芯片 。,mobj_sub,Missing_Object,25,361
+他 讲 过 有关 蛋糕 的 课 。,他 讲 过 有关 蛋糕 。,mobj_sub,Missing_Object,26,362
+我 邀请 过 喜欢 游泳 的 朋友 。,我 邀请 过 喜欢 游泳 。,mobj_sub,Missing_Object,27,363
+她 申请 过 减轻 她 负担 的 奖金 。,她 申请 过 减轻 她 负担 。,mobj_sub,Missing_Object,28,364
+她 去 买 代表 好运 的 礼物 。,她 去 买 代表 好运 。,mobj_sub,Missing_Object,29,365
+这 是 会 发出 声音 的 玩具 。,这 是 会 发出 声音 。,mobj_sub,Missing_Object,30,366
+弟弟 需要 用于 游戏 的 钱 。,弟弟 需要 用于 游戏 。,mobj_sub,Missing_Object,31,367
+他 很 欣赏 有 风格 的 作家 。,他 很 欣赏 有 风格 。,mobj_sub,Missing_Object,32,368
+那里 有 吸引 人 的 表演 。,那里 有 吸引 人 。,mobj_sub,Missing_Object,33,369
+我 经常 去 提供 服务 的 医院 。,我 经常 去 提供 服务 。,mobj_sub,Missing_Object,34,370
+随着政府发展，经济变好了。,随着政府发展。,sd_none,Subordination,1,371
+随着互联网的出现，生活质量提高了。,随着互联网的出现。,sd_none,Subordination,2,372
+随着一阵响声，火车开动了。,随着一阵响声。,sd_none,Subordination,3,373
+随着年龄增长，他更有自信了。,随着年龄增长。,sd_none,Subordination,4,374
+随着冬天的到来，树木凋零了。,随着冬天的到来。,sd_none,Subordination,5,375
+随着科技发展，电脑功能变得更多了。,随着科技发展。,sd_none,Subordination,6,376
+自从见了他，她一直在写信。,自从见了他。,sd_none,Subordination,7,377
+自从修了公路，农村经济变好了。,自从修了公路。,sd_none,Subordination,8,378
+自从离开家乡，她一直想念父母。,自从离开家乡。,sd_none,Subordination,9,379
+自从他开始读书，他的成绩提高了。,自从他开始读书。,sd_none,Subordination,10,380
+自从他获得大奖，他不学习了。,自从他获得大奖。,sd_none,Subordination,11,381
+自从她认识了老师，她努力训练。,自从她认识了老师。,sd_none,Subordination,12,382
+自从她参与了活动，她认识了很多人。,自从她参与了活动。,sd_none,Subordination,13,383
+自从她学习了外语，她看了很多电影。,自从她学习了外语。,sd_none,Subordination,14,384
+因为喝了酒，他摔了。,因为喝了酒。,sd_none,Subordination,15,385
+因为时间短，他结束了谈话。,因为时间短。,sd_none,Subordination,16,386
+因为没有练习题目，他没有成功。,因为没有练习题目。,sd_none,Subordination,17,387
+因为疾病，她拒绝了演出。,因为疾病。,sd_none,Subordination,18,388
+因为听着音乐，她错过了闹钟。,因为听着音乐。,sd_none,Subordination,19,389
+尽管天气冷，工人还在工作。,尽管天气冷。,sd_none,Subordination,20,390
+尽管他年纪小，他有能力。,尽管他年纪小。,sd_none,Subordination,21,391
+尽管她会开车，她今天没有开车。,尽管她会开车。,sd_none,Subordination,22,392
+尽管题目难，学生做对了。,尽管题目难。,sd_none,Subordination,23,393
+尽管作家很年轻，他写了很多作品。,尽管作家很年轻。,sd_none,Subordination,24,394
+尽管经济不好，他还是关心慈善。,尽管经济不好。,sd_none,Subordination,25,395
+如果天气好，我们去爬山。,如果天气好。,sd_none,Subordination,26,396
+如果不努力，就没有回报。,如果不努力。,sd_none,Subordination,27,397
+如果时间足够，我们可以完成。,如果时间足够。,sd_none,Subordination,28,398
+如果我们照了相，我们留下了回忆。,如果我们照了相。,sd_none,Subordination,29,399
+如果培养了信心，她可以实现梦想。,如果培养了信心。,sd_none,Subordination,30,400
+如果他不尝试，他将失去机会。,如果他不尝试。,sd_none,Subordination,31,401
+如果你来，我会准备水果。,如果你来。,sd_none,Subordination,32,402
+随着 政府 发展 ， 经济 变 好 了 。,随着 政府 发展 。,sd_none,Subordination,1,403
+随着 互联网 的 出现 ， 生活 质量 提高 了 。,随着 互联网 的 出现 。,sd_none,Subordination,2,404
+随着 一阵 铃声 ， 火车 开 了 。,随着 一阵 铃声 。,sd_none,Subordination,3,405
+随着 年龄 增长 ， 他 更 有 自信 了 。,随着 年龄 增长 。,sd_none,Subordination,4,406
+随着 冬天 的 到来 ， 树木 凋零 了 。,随着 冬天 的 到来 。,sd_none,Subordination,5,407
+随着 科技 发展 ， 电脑 功能 变得 更 多 了 。,随着 科技 发展 。,sd_none,Subordination,6,408
+自从 见 了 他 ， 她 一直 在 写信 。,自从 见 了 他 。,sd_none,Subordination,7,409
+自从 修 了 公路 ， 农村 经济 变 好 了 。,自从 修 了 公路 。,sd_none,Subordination,8,410
+自从 离开 家乡 ， 她 一直 想念 父母 。,自从 离开 家乡 。,sd_none,Subordination,9,411
+自从 他 开始 读书 ， 他 的 成绩 提高 了 。,自从 他 开始 读书 。,sd_none,Subordination,10,412
+自从 他 获得 大奖 ， 他 不 学习 了 。,自从 他 获得 大奖 。,sd_none,Subordination,11,413
+自从 她 认识 了 老师 ， 她 努力 训练 。,自从 她 认识 了 老师 。,sd_none,Subordination,12,414
+自从 她 参与 了 活动 ， 她 认识 了 很多 人 。,自从 她 参与 了 活动 。,sd_none,Subordination,13,415
+自从 她 学习 了 外语 ， 她 看 了 很多 电影 。,自从 她 学习 了 外语 。,sd_none,Subordination,14,416
+因为 喝 了 酒 ， 他 摔 了 。,因为 喝 了 酒 。,sd_none,Subordination,15,417
+因为 时间 短 ， 他 结束 了 谈话 。,因为 时间 短 。,sd_none,Subordination,16,418
+因为 没有 练习 题目 ， 他 没有 成功 。,因为 没有 练习 题目 。,sd_none,Subordination,17,419
+因为 疾病 ， 她 拒绝 了 演出 。,因为 疾病 。,sd_none,Subordination,18,420
+因为 听 着 音乐 ， 她 错过 了 广播 。,因为 听 着 音乐 。,sd_none,Subordination,19,421
+尽管 天气 冷 ， 工人 还 在 工作 。,尽管 天气 冷 。,sd_none,Subordination,20,422
+尽管 他 年纪 小 ， 他 有 能力 。,尽管 他 年纪 小 。,sd_none,Subordination,21,423
+尽管 她 会 开车 ， 她 今天 没有 开车 。,尽管 她 会 开车 。,sd_none,Subordination,22,424
+尽管 题目 难 ， 学生 做 对 了 。,尽管 题目 难 。,sd_none,Subordination,23,425
+尽管 作家 很 年轻 ， 他 写 了 很多 作品 。,尽管 作家 很 年轻 。,sd_none,Subordination,24,426
+尽管 经济 不 好 ， 他 还是 关心 慈善 。,尽管 经济 不 好 。,sd_none,Subordination,25,427
+如果 天气 好 ， 我们 去 公园 。,如果 天气 好 。,sd_none,Subordination,26,428
+如果 不 努力 ， 就 没有 回报 。,如果 不 努力 。,sd_none,Subordination,27,429
+如果 时间 足够 ， 我们 可以 完成 。,如果 时间 足够 。,sd_none,Subordination,28,430
+如果 我们 照 了 相 ， 我们 留下 了 回忆 。,如果 我们 照 了 相 。,sd_none,Subordination,29,431
+如果 培养 了 信心 ， 她 可以 实现 梦想 。,如果 培养 了 信心 。,sd_none,Subordination,30,432
+如果 他 不 尝试 ， 他 将 失去 机会 。,如果 他 不 尝试 。,sd_none,Subordination,31,433
+如果 你 来 ， 我 会 准备 水果 。,如果 你 来 。,sd_none,Subordination,32,434
+那位教授写了书的内容。,那位教授写了书的作者。,vo_none,Verb_Noun,1,435
+我听着奶奶的声音。,我看着奶奶的声音。,vo_none,Verb_Noun,2,436
+他读了桌子上的报纸。,他读了桌子上的叉子。,vo_none,Verb_Noun,3,437
+她终于实现了理想。,她终于完成了理想。,vo_none,Verb_Noun,4,438
+我修理了这个电脑。,我修理了这个故事。,vo_none,Verb_Noun,5,439
+他承担了我的责任。,他承担了我的爱好。,vo_none,Verb_Noun,6,440
+我邀请过我的朋友。,我邀请过我的音响。,vo_none,Verb_Noun,7,441
+他在学校里讲过课。,他在学校里讲过饭。,vo_none,Verb_Noun,8,442
+弟弟开了父亲的车。,弟弟开了父亲的诗。,vo_none,Verb_Noun,9,443
+我看过这个画面。,我听过这个画面。,vo_none,Verb_Noun,10,444
+我读着商场的地图。,我听着商场的地图。,vo_none,Verb_Noun,11,445
+老师拿出了他的篮子。,老师拿出了他的梦想。,vo_none,Verb_Noun,12,446
+记者采访了艺术家。,记者采访了艺术品。,vo_none,Verb_Noun,13,447
+他参与了战争。,他参与了医院。,vo_none,Verb_Noun,14,448
+她增大了学习力度。,她增大了学习效率。,vo_none,Verb_Noun,15,449
+我结束了谈话。,我结束了对方。,vo_none,Verb_Noun,16,450
+他种了这些花。,他种了这些笔。,vo_none,Verb_Noun,17,451
+他申请了很多工作。,他申请了很多问题。,vo_none,Verb_Noun,18,452
+她吃过这种鱼。,她吃过这种水。,vo_none,Verb_Noun,19,453
+母亲喝过茶。,母亲喝过饭。,vo_none,Verb_Noun,20,454
+这款药缓解了症状。,这款药缓解了疾病。,vo_none,Verb_Noun,21,455
+歌手演奏了歌曲的旋律。,歌手演奏了歌曲的歌词。,vo_none,Verb_Noun,22,456
+他去过这个商店。,他去过这个店长。,vo_none,Verb_Noun,23,457
+科学家发明了这个产品。,科学家发明了这个规律。,vo_none,Verb_Noun,24,458
+母亲责备了孩子。,母亲责备了晚饭。,vo_none,Verb_Noun,25,459
+孩子改正了这个习惯。,孩子改正了这个特长。,vo_none,Verb_Noun,26,460
+我吸取了之前的经验。,我吸取了之前的经历。,vo_none,Verb_Noun,27,461
+政府建造了公园。,政府建造了山峰。,vo_none,Verb_Noun,28,462
+花园长满了草。,花园长满了水。,vo_none,Verb_Noun,29,463
+雨水灌溉了田地。,雨水灌溉了大楼。,vo_none,Verb_Noun,30,464
+她佩戴了首饰。,她佩戴了衣服。,vo_none,Verb_Noun,31,465
+他摘了一些水果。,他摘了一些蜂蜜。,vo_none,Verb_Noun,32,466
+警官解除了警报。,警官解除了出口。,vo_none,Verb_Noun,33,467
+爷爷安装过机器。,爷爷安装过蔬菜。,vo_none,Verb_Noun,34,468
+我听从了老师的建议。,我听从了老师的回忆。,vo_none,Verb_Noun,35,469
+那 位 教授 写 了 书 的 序言 和 内容 。,那 位 教授 写 了 书 的 序言 和 作者 。,vo_para,Verb_Noun,1,470
+弟弟 开 了 父亲 的 瓶子 和 车 。,弟弟 开 了 父亲 的 瓶子 和 诗 。,vo_para,Verb_Noun,2,471
+他 读 了 桌子 上 的 书 和 报纸 。,他 读 了 桌子 上 的 书 和 筷子 。,vo_para,Verb_Noun,3,472
+她 终于 实现 了 她 的 目标 和 理想 。,她 终于 实现 了 她 的 目标 和 任务 。,vo_para,Verb_Noun,4,473
+我 修理 了 这个 电视 和 电脑 。,我 修理 了 这个 电视 和 故事 。,vo_para,Verb_Noun,5,474
+他 承担 了 我 的 义务 和 责任 。,他 承担 了 我 的 义务 和 爱好 。,vo_para,Verb_Noun,6,475
+我 邀请 过 我 的 老师 和 朋友 。,我 邀请 过 我 的 老师 和 音响 。,vo_para,Verb_Noun,7,476
+老师 拿出 了 他 的 笔 和 篮子 。,老师 拿出 了 他 的 笔 和 梦想 。,vo_para,Verb_Noun,8,477
+记者 采访 了 作家 和 艺术家 。,记者 采访 了 作家 和 艺术品 。,vo_para,Verb_Noun,9,478
+他 参与 了 活动 和 战争 。,他 参与 了 活动 和 医院 。,vo_para,Verb_Noun,10,479
+她 增大 了 学习 频率 和 力度 。,她 增大 了 学习 频率 和 效率 。,vo_para,Verb_Noun,11,480
+我 结束 了 争吵 和 谈话 。,我 结束 了 争吵 和 对方 。,vo_para,Verb_Noun,12,481
+他 种 了 这些 树 和 花 。,他 种 了 这些 树 和 笔 。,vo_para,Verb_Noun,13,482
+他 申请 了 很多 学校 和 工作 。,他 申请 了 很多 学校 和 问题 。,vo_para,Verb_Noun,14,483
+这 款 药 缓解 了 他 的 焦虑 和 症状 。,这 款 药 缓解 了 他 的 焦虑 和 疾病 。,vo_para,Verb_Noun,15,484
+我 听 着 奶奶 的 讲述 和 声音 。,我 听 着 奶奶 的 讲述 和 面容 。,vo_para,Verb_Noun,16,485
+科学家 发明 了 这个 机器 和 药品 。,科学家 发明 了 这个 机器 和 规律 。,vo_para,Verb_Noun,17,486
+母亲 责备 了 父亲 和 孩子 。,母亲 责备 了 父亲 和 晚饭 。,vo_para,Verb_Noun,18,487
+孩子 改正 了 这个 错误 和 习惯 。,孩子 改正 了 这个 错误 和 特长 。,vo_para,Verb_Noun,19,488
+政府 建造 了 剧院 和 公园 。,政府 建造 了 剧院 和 大海 。,vo_para,Verb_Noun,20,489
+我 吸取 了 之前 的 经验 和 教训 。,我 吸取 了 之前 的 经验 和 经历 。,vo_para,Verb_Noun,21,490
+花园 长满 了 花 和 草 。,花园 长满 了 花 和 水 。,vo_para,Verb_Noun,22,491
+雨水 灌溉 了 沙漠 和 田地 。,雨水 灌溉 了 沙漠 和 大楼 。,vo_para,Verb_Noun,23,492
+我 听从 了 老师 的 批评 和 建议 。,我 听从 了 老师 的 批评 和 回忆 。,vo_para,Verb_Noun,24,493
+警官 解除 了 封锁 和 警报 。,警官 解除 了 封锁 和 出口 。,vo_para,Verb_Noun,25,494
+他 摘 过 一些 蔬菜 和 水果 。,他 摘 过 一些 蔬菜 和 化肥 。,vo_para,Verb_Noun,26,495
+她 佩戴 过 戒指 和 耳机 。,她 佩戴 过 戒指 和 衣服 。,vo_para,Verb_Noun,27,496
+他 在 学校 里 讲 过 讲座 和 课 。,他 在 学校 里 讲 过 讲座 和 饭 。,vo_para,Verb_Noun,28,497
+他 去 过 仓库 和 商店 。,他 去 过 仓库 和 店长 。,vo_para,Verb_Noun,29,498
+我 看 过 这些 文字 和 画面 。,我 看 过 这些 文字 和 声音 。,vo_para,Verb_Noun,30,499
+爷爷 安装 过 家具 和 机器 。,爷爷 安装 过 家具 和 蔬菜 。,vo_para,Verb_Noun,31,500
+她 吃 过 这 些 菜 和 鱼 。,她 吃 过 这 些 菜 和 话 。,vo_para,Verb_Noun,32,501
+母亲 喝 过 咖啡 和 茶 。,母亲 喝 过 咖啡 和 纸 。,vo_para,Verb_Noun,33,502
+那 位 教授 写 了 书 的 内容 。,那 位 教授 写 了 书 的 作者 。,vo_none,Verb_Noun,1,503
+弟弟 开 了 父亲 的 车 。,弟弟 开 了 父亲 的 诗 。,vo_none,Verb_Noun,2,504
+他 读 了 桌子 上 的 报纸 。,他 读 了 桌子 上 的 筷子 。,vo_none,Verb_Noun,3,505
+她 终于 实现 了 她 的 理想 。,她 终于 实现 了 她 的 任务 。,vo_none,Verb_Noun,4,506
+我 修理 了 这个 电脑 。,我 修理 了 这个 故事 。,vo_none,Verb_Noun,5,507
+他 承担 了 我 的 责任 。,他 承担 了 我 的 爱好 。,vo_none,Verb_Noun,6,508
+我 邀请 过 我 的 朋友 。,我 邀请 过 我 的 音响 。,vo_none,Verb_Noun,7,509
+老师 拿出 了 他 的 篮子 。,老师 拿出 了 他 的 梦想 。,vo_none,Verb_Noun,8,510
+记者 采访 了 艺术家 。,记者 采访 了 艺术品 。,vo_none,Verb_Noun,9,511
+他 参与 了 战争 。,他 参与 了 医院 。,vo_none,Verb_Noun,10,512
+她 增大 了 学习 力度 。,她 增大 了 学习 效率 。,vo_none,Verb_Noun,11,513
+我 结束 了 谈话 。,我 结束 了 对方 。,vo_none,Verb_Noun,12,514
+他 种 了 这些 花 。,他 种 了 这些 笔 。,vo_none,Verb_Noun,13,515
+他 申请 了 很多 工作 。,他 申请 了 很多 问题 。,vo_none,Verb_Noun,14,516
+这 款 药 缓解 了 他 的 症状 。,这 款 药 缓解 了 他 的 疾病 。,vo_none,Verb_Noun,15,517
+我 听 着 奶奶 的 声音 。,我 听 着 奶奶 的 面容 。,vo_none,Verb_Noun,16,518
+科学家 发明 了 这个 药品 。,科学家 发明 了 这个 规律 。,vo_none,Verb_Noun,17,519
+母亲 责备 了 孩子 。,母亲 责备 了 晚饭 。,vo_none,Verb_Noun,18,520
+孩子 改正 了 这个 习惯 。,孩子 改正 了 这个 特长 。,vo_none,Verb_Noun,19,521
+政府 建造 了 公园 。,政府 建造 了 大海 。,vo_none,Verb_Noun,20,522
+我 吸取 了 之前 的 教训 。,我 吸取 了 之前 的 经历 。,vo_none,Verb_Noun,21,523
+花园 长满 了 草 。,花园 长满 了 水 。,vo_none,Verb_Noun,22,524
+雨水 灌溉 了 田地 。,雨水 灌溉 了 大楼 。,vo_none,Verb_Noun,23,525
+我 听从 了 老师 的 建议 。,我 听从 了 老师 的 回忆 。,vo_none,Verb_Noun,24,526
+警官 解除 了 警报 。,警官 解除 了 出口 。,vo_none,Verb_Noun,25,527
+他 摘 过 一些 水果 。,他 摘 过 一些 化肥 。,vo_none,Verb_Noun,26,528
+她 佩戴 过 耳机 。,她 佩戴 过 衣服 。,vo_none,Verb_Noun,27,529
+他 在 学校 里 讲 过 课 。,他 在 学校 里 讲 过 饭 。,vo_none,Verb_Noun,28,530
+他 去 过 商店 。,他 去 过 店长 。,vo_none,Verb_Noun,29,531
+我 看 过 这些 画面 。,我 看 过 这些 声音 。,vo_none,Verb_Noun,30,532
+爷爷 安装 过 机器 。,爷爷 安装 过 蔬菜 。,vo_none,Verb_Noun,31,533
+她 吃 过 这 些 鱼 。,她 吃 过 这 些 话 。,vo_none,Verb_Noun,32,534
+母亲 喝 过 茶 。,母亲 喝 过 纸 。,vo_none,Verb_Noun,33,535

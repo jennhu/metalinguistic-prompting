@@ -20,6 +20,7 @@ if __name__ == "__main__":
     # Meta information.
     meta_data = {
         "model": args.model,
+        "lang": args.lang,
         "seed": args.seed,
         "task": TASK,
         "eval_type": args.eval_type,
@@ -62,8 +63,14 @@ if __name__ == "__main__":
         else:
             # Create "continuations". We're essentially asking the models
             # a yes/no question.
-            yes_continuation = "Yes"
-            no_continuation = "No"
+            if args.lang == "en":
+                yes_continuation = "Yes"
+                no_continuation = "No"
+            elif args.lang == "zh":
+                yes_continuation = "是"
+                no_continuation = "否"
+            else:
+                raise ValueError("Language must be 'en' (English) or 'zh' (Chinese).")
                 
             # Create prompt and get outputs (2x2).
             good_prompt_yes, logprob_of_yes_good, logprobs_good = \
@@ -112,15 +119,15 @@ if __name__ == "__main__":
             }
             
             # Deal with logprobs: different cases for OpenAI and Huggingface.
-            if args.model_type == "openai":
-                res["top_logprobs"] = logprobs
-            elif args.dist_folder is not None:
-                # Save full distribution over vocab items 
-                # (only corresponding to the first subword token).
-                model.save_dist_as_numpy(
-                    logprobs, 
-                    f"{args.dist_folder}/{row.item_id}.npy"
-                )
+            # if args.model_type == "openai":
+            #     res["top_logprobs"] = logprobs
+            # elif args.dist_folder is not None:
+            #     # Save full distribution over vocab items 
+            #     # (only corresponding to the first subword token).
+            #     model.save_dist_as_numpy(
+            #         logprobs, 
+            #         f"{args.dist_folder}/{row.item_id}.npy"
+            #     )
 
         # Record results for this item.
         results.append(res)

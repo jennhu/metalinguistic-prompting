@@ -20,6 +20,7 @@ if __name__ == "__main__":
     # Meta information.
     meta_data = {
         "model": args.model,
+        "lang": args.lang,
         "seed": args.seed,
         "task": TASK,
         "eval_type": args.eval_type,
@@ -68,7 +69,7 @@ if __name__ == "__main__":
                 options = [bad_sentence, good_sentence]
                 
             # Create "continuations". We're essentially asking the models
-            # a multiple choice question.
+            # a multiple choice question. NOTE: this is language-independent.
             good_continuation = "1" if args.option_order == "goodFirst" else "2"
             bad_continuation = "2" if args.option_order == "goodFirst" else "1"
                 
@@ -105,15 +106,15 @@ if __name__ == "__main__":
             }
             
             # Deal with logprobs: different cases for OpenAI and Huggingface.
-            if args.model_type == "openai":
-                res["top_logprobs"] = logprobs
-            elif args.dist_folder is not None:
-                # Save full distribution over vocab items 
-                # (only corresponding to the first subword token).
-                model.save_dist_as_numpy(
-                    logprobs, 
-                    f"{args.dist_folder}/{row.item_id}.npy"
-                )
+            # if args.model_type == "openai":
+            #     res["top_logprobs"] = logprobs
+            # elif args.dist_folder is not None:
+            #     # Save full distribution over vocab items 
+            #     # (only corresponding to the first subword token).
+            #     model.save_dist_as_numpy(
+            #         logprobs, 
+            #         f"{args.dist_folder}/{row.item_id}.npy"
+            #     )
 
         # Record results for this item.
         results.append(res)

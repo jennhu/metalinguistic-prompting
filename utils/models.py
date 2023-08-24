@@ -3,15 +3,23 @@ import torch
 import numpy as np
 
 from .llm import load_mt, make_prompt
+from .llm_zh import make_prompt_zh
 
 
 # Base class for large language model.
 class LLM(object):
-    def __init__(self, eval_type, model, seed, device="cpu"):
+    def __init__(self, eval_type, model, seed, device="cpu", lang="en"):
         self.eval_type = eval_type
         self.model = model
         self.seed = seed
         self.device = device
+        self.lang = lang # "en" for English, "zh" for Chinese
+        if self.lang == "en":
+            self.make_prompt = make_prompt
+        elif self.lang == "zh":
+            self.make_prompt = make_prompt_zh
+        else:
+            raise ValueError("Language must be 'en' (English) or 'zh' (Chinese).")
 
     def get_logprob_of_continuation(self, _):
         raise NotImplementedError
@@ -53,38 +61,78 @@ class OpenAI_LLM(LLM):
                                     return_dist=True,
                                     **kwargs):
         # Construct prompt and get logprobs.
-        prompt = make_prompt(
+        prompt = self.make_prompt(
             prefix, 
             continuation,
             eval_type=self.eval_type,
             task=task,
             options=options
         )
+        # print("PREFIX:", prefix, "CONTINUATION:", continuation)
+        # print("PROMPT:")
+        # print(prompt)
         logprobs = self._get_logprobs(prompt, **kwargs)
-        tokens, token_logprobs, top_logprobs = \
-            logprobs["tokens"], logprobs["token_logprobs"], logprobs["top_logprobs"]
+        # print("LOGPROBS:")
+        # print(logprobs)
+        tokens, token_logprobs, top_logprobs, text_offset = \
+            logprobs["tokens"], logprobs["token_logprobs"], \
+            logprobs["top_logprobs"], logprobs["text_offset"]
+        # print("TOKENS:", len(tokens))
+        # print(tokens)
+        # print("TEXT OFFSET:", len(text_offset))
+        # print(text_offset)
+        # print([prompt[i] for i in text_offset])
 
-        # Identify indices from `tokens` that correspond to the relevant
-        # continuation (final word). This could be split into multiple tokens.
-        n_tokens = len(tokens)
-        full_continuation_str = " " + continuation
-        if task == "sentence_comparison":
-            # The number tokens sometimes have preceding space, sometimes not.
-            end_strs = [full_continuation_str, continuation] 
-        else:
-            end_strs = full_continuation_str
-        inds = []
-        cur_word = ""
-        for tok_idx in range(n_tokens-1, -1, -1):
-            # Go backwards through the list of tokens.
-            cur_tok = tokens[tok_idx]
-            cur_word = cur_tok + cur_word
-            if token_logprobs[tok_idx] is None:
-                break
+        # print("TOKEN LOGPROBS:")
+        # print(token_logprobs)
+
+        if self.lang == "en":
+            # Identify indices from `tokens` that correspond to the relevant
+            # continuation (final word). This could be split into multiple tokens.
+            n_tokens = len(tokens)
+            full_continuation_str = " " + continuation
+            if task == "sentence_comparison":
+                # The number tokens sometimes have preceding space, sometimes not.
+                end_strs = [full_continuation_str, continuation] 
             else:
-                inds = [tok_idx] + inds
-                if cur_word in end_strs:
+                end_strs = full_continuation_str
+            inds = []
+            cur_word = ""
+            for tok_idx in range(n_tokens-1, -1, -1):
+                # Go backwards through the list of tokens.
+                cur_tok = tokens[tok_idx]
+                cur_word = cur_tok + cur_word
+                if token_logprobs[tok_idx] is None:
                     break
+                else:
+                    inds = [tok_idx] + inds
+                    if cur_word in end_strs:
+                        break
+        elif self.lang == "zh":
+            # Identify *character* indices from `prompt` that correspond to the relevant
+            # continuation (final word). This could be split into multiple tokens.
+            n_chars = len(prompt)
+            char_inds = []
+            cur_str = ""
+            for c_idx in range(n_chars-1, -1, -1):
+                # Go backwards through the list of characters (prompt string).
+                cur_c = prompt[c_idx]
+                cur_str = cur_c + cur_str
+                if c_idx == 0:
+                    break
+                else:
+                    char_inds = [c_idx] + char_inds
+                    if cur_str == continuation:
+                        break
+        
+            # print("INDICES OF FINAL WORD (character-level in original prompt):")
+            # print(char_inds)
+            
+            # Now, convert to token indices.
+            inds = [i for i in range(len(text_offset)) if text_offset[i] in char_inds]
+            # print("INDICES OF FINAL WORD (token-level):")
+            # print(inds)
+            # assert False
         
         # Obtain logprob of gold (ground-truth) word by summing logprobs
         # of all sub-word tokens, as measured by `inds`.
@@ -166,14 +214,14 @@ class T5_LLM(LLM):
                                     return_dist=True,
                                     **kwargs):
         # Construct prompt and get logprobs.
-        full_prompt = make_prompt(
+        full_prompt = self.make_prompt(
             prefix, 
             continuation,
             eval_type=self.eval_type,
             task=task,
             options=options
         )
-        inpt_str = make_prompt(
+        inpt_str = self.make_prompt(
             prefix, 
             "<extra_id_0>", 
             eval_type=self.eval_type,

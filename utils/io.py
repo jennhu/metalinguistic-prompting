@@ -23,6 +23,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate model using specified prompts")
     parser.add_argument("--model", "-M", type=str, help="Name of model")
     parser.add_argument("--model_type", type=str, choices=["openai", "hf"])
+    parser.add_argument("--lang", type=str, choices=["en", "zh"], default="en")
     parser.add_argument("--key", "-K", type=str, default="key.txt", 
                         help="Path to file with secret OpenAI API key")
     parser.add_argument("--seed", "-S", type=int, default=0, 
@@ -60,10 +61,10 @@ def initialize_model(args):
     if args.model_type == "openai":
         # Secret file with API key (DO NOT commit this)
         openai_api.set_key_from_file(args.key)
-        model = models.OpenAI_LLM(args.eval_type, args.model, args.seed)
+        model = models.OpenAI_LLM(args.eval_type, args.model, args.seed, lang=args.lang)
     else:
         if "flan-t5" in args.model:
-            model = models.T5_LLM(args.eval_type, args.model, args.seed, device=device)
+            model = models.T5_LLM(args.eval_type, args.model, args.seed, lang=args.lang, device=device)
         else:
             raise ValueError(
                 f"Model not supported! (Your model: {args.model})"
