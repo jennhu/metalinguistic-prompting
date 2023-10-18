@@ -1,5 +1,6 @@
 key.txt
 results/
+results_zh/
 slurm/
 figures/
 datasets/exp3/blimp/raw
