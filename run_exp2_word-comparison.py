@@ -77,15 +77,15 @@ if __name__ == "__main__":
         }
         
         # Deal with logprobs: different cases for OpenAI and Huggingface.
-        if args.model_type == "openai":
-            res["top_logprobs"] = logprobs
-        elif args.dist_folder is not None:
-            # Save full distribution over vocab items 
-            # (only corresponding to the first subword token).
-            model.save_dist_as_numpy(
-                logprobs, 
-                f"{args.dist_folder}/{row.item_id}.npy"
-            )
+        # if args.model_type == "openai":
+        #     res["top_logprobs"] = logprobs
+        # elif args.dist_folder is not None:
+        #     # Save full distribution over vocab items 
+        #     # (only corresponding to the first subword token).
+        #     model.save_dist_as_numpy(
+        #         logprobs, 
+        #         f"{args.dist_folder}/{row.item_id}.npy"
+        #     )
 
         # Record results for current item.
         results.append(res)
