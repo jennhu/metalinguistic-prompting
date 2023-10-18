@@ -1,7 +1,7 @@
 **NOTE: This branch (`chinese`) contains code and data for the experiments in Mandarin Chinese (see Appendix D, Figure 11 of the paper).
 Please note that these experiments are preliminary.**
 
-To obtain the results from our paper, extract the [`results_zh.zip`](`results_zh.zip`) file. This will create a folder called `results_zh`, which is organized by experiment. The notebook [`analysis_zh.ipynb`](`analysis_zh.ipynb`) can be used to reproduce Figure 11 in the paper.
+To obtain the results from our paper, extract the [`results_zh.zip`](results_zh.zip) file. This will create a folder called `results_zh`, which is organized by experiment. The notebook [`analysis_zh.ipynb`](analysis_zh.ipynb) can be used to reproduce Figure 11 in the paper.
 
 The remainder of the README is left the same as in the master branch.
 
