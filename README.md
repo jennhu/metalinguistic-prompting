@@ -1,18 +1,18 @@
-# Prompt-based methods may underestimate large language models' linguistic generalizations
+# Prompting is not a substitute for probability measurements in large language models
 
-This repository contains materials for the paper
-"Prompt-based methods may underestimate large language models' linguistic generalizations" 
-(Hu & Levy, 2023). The preprint is available on both [arXiv](https://arxiv.org/abs/2305.13264)
-and [LingBuzz](https://lingbuzz.net/lingbuzz/007313).
+This repository contains materials for the EMNLP 2023 paper
+"Prompting is not a substitute for probability measurements in large language models" 
+(Hu & Levy, 2023). The preprint is available on [arXiv](https://arxiv.org/abs/2305.13264).
 
 If you find the code or data useful in your research, please use the following citation:
 
 ```
-@document{hu_prompt-based_2023,
-    title = {Prompt-based methods may underestimate large language models' linguistic generalizations},
+@inproceedings{hu_prompting_2023,
+    title = {Prompting is not a substitute for probability measurements in large language models},
     author = {Hu, Jennifer and Levy, Roger},
     year = {2023},
-    url = {https://lingbuzz.net/lingbuzz/007313}
+    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    url = {https://arxiv.org/abs/2305.13264}
 }
 ```
 
